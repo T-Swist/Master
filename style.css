@@ -1,0 +1,1073 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Great+Vibes&family=Libre+Baskerville&family=Poppins:ital,wght@0,200;0,500;1,300&family=Roboto:ital,wght@1,300&family=Satisfy&display=swap');
+
+*{
+  margin: 0;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+}
+/*The header styling starts here*/
+.header {
+  width: 100%;
+  height: 92vh;
+  background: rgb(40, 39, 39);
+}
+
+body {
+  font-family: 'poppin', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 16vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5vh;
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.openMenu, .closeMenu {
+  color: #9acd32;
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+ .closeMenu:hover{
+  color: #ffffff;
+}
+
+.nav-bar{
+  width: 60%;
+  height: 7vh;
+  border: 2px solid #000000;
+  border-radius: 2rem;
+  box-shadow: 2px 1px 3px 2px #000000;
+}
+
+.mainMenu {
+  display: flex;
+  padding-top: 0.6rem;
+  justify-content: space-evenly;
+}
+
+.mainMenu li a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.mainMenu li a:hover{
+  color: #9acd32;
+  transition: all .3s ease;
+}
+
+.hero-container {
+  display: flex;
+  width: 88%;
+  justify-content: space-between;
+  margin-left: 12%;
+  
+  padding-top: 3rem;
+}
+
+.first-hero-par {
+  color: #ffffff;
+  margin-bottom: 4px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  color: #9acd32;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+.job{
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+}
+
+.hr{
+  width: 5.5rem;
+  height: 2px;
+  background: #9acd32;
+  margin-bottom: 20px;
+}
+
+.hero-par-02 {
+  width: 460px;
+  font-size: 1.3rem;
+  
+}
+
+.second-hero-par{
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  word-spacing: 0.8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hire {
+  width: 180px;
+  height: 38px;
+  background: #9acd32;
+  border-radius: 2rem;
+  padding-top: 10px;
+}
+
+.hire a:hover{
+  background: #000000; 
+  color: #9acd32;
+}
+
+.hire:hover{
+  background: #000000;
+  cursor: pointer;
+  transition: all .3s ease;
+  box-shadow: 2px 1px 3px 2px #9acd32;
+}
+
+.hire-a{
+  color: #000000;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 1.8rem;
+}
+
+.hero-image {
+  width: 265px;
+  height: 265px;
+  border-radius: 50%;
+  background: #9acd32;
+}
+
+.hero-img{
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 2.5px;
+}
+
+.hero-social-link {
+  width: 36px;
+  height: 35vh;
+  border: 2px solid #000000;
+  margin-left: 1rem;
+border-top-left-radius: 1.3rem;
+border-bottom-left-radius: 1.3rem;
+margin-top: 2rem;
+}
+
+.social{
+ color: #ffffff;
+ display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+padding-top: 12px;
+}
+
+.social-icon {
+font-size: 1.6rem;
+cursor: pointer;
+}
+
+.social-icon:hover{
+  color: #9acd32;
+  transition: all .3s ease;
+}
+/*The header styling ends here*/
+
+/*The brief info section styling starts here*/
+
+.brief-info {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  background:  rgb(40, 39, 39);
+}
+
+.div-brief-info {
+  display: flex;
+  gap: 3rem;
+  width: 38%;
+  margin-left: 30%;
+  margin-right: 20%;
+  height: 8vh;
+  border: 2px solid #000000;
+  border-radius: 1.2rem;
+  box-shadow: 2px 1px 3px 2px #000000;
+}
+
+.job-experence, .project-done, .support{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #9acd32;
+  margin-left: 18px;
+  font-size: 0.8rem;
+}
+
+
+
+/*The brief info section styling ends here*/
+
+/*The about section styling starts here*/
+.about-section {
+  width: 100%;
+  height: 90vh;
+  background: #525351;
+
+}
+
+.about-div {
+  width: 88%;
+  display: flex;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.about-text, .about-image{
+  padding-top: 10rem;
+}
+
+.about-01-para {
+  color: #ffffff;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.about-h2{
+  color: #9acd32;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 2rem;
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+.about-02-para-div{
+  margin-top: 3rem;
+  width: 90%;
+  color: #ffffff;
+  letter-spacing: 1px;
+  word-spacing: 0.5px;
+}
+
+.about-img-class{
+  width: 350px;
+  height: 260px;
+  border-radius: .5rem;
+  margin-right: 8rem;
+}
+
+/*The about section styling ends here*/
+
+/*The services section styling starts here*/
+
+.services {
+  width: 100%;
+  height: 90vh;
+  background: #525351;
+}
+
+.services-div{
+  width: 88%;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.about-text {
+  text-align: center;
+}
+
+.services-paragraph{
+  color: #ffffff;
+  word-spacing: 1px;
+  letter-spacing: 0.6px;
+}
+
+.services-h2 {
+  color: #9acd32;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.service-box-h2{color: #ffffff; margin-bottom: 0.5rem;}
+.services-first-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.services-empty {
+  width: 100px;
+  height: 2px;
+  background: #2d2c2c;
+}
+
+.services-emp {
+  font-size: 1.8rem;
+  color: #2d2c2c;
+}
+
+.services-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 3rem;
+}
+
+.services-first-box, .services-second-box, .services-third-box {
+  width: 180px;
+  height: 150px;
+  text-align: center;
+  border: 1px solid #000000;
+  padding-top: 2rem;
+  border-radius: 2rem;
+  background: #3a3939;
+  box-shadow: 1px 1px 5px 2px#000000 ;
+}
+
+.icon {
+  color: #9acd32;
+  font-size: 2rem;
+}
+
+.service-paragraph {
+  color: #9acd32;
+  letter-spacing: 0.4px;
+  line-height: 1.2rem;
+}
+/*The services section styling ends here*/
+
+/*My work styling starts here*/
+
+.my-work {
+  width: 100%;
+  height: 100vh;
+  background: #525351;
+}
+
+.my-work-div {
+  width: 88%;
+ margin-left: 4rem;
+}
+
+.my-work-text{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 5px;
+}
+
+.my-work-paragraph {
+  color: #ffffff;
+  word-spacing: 1px;
+  letter-spacing: 0.6px;
+}
+
+.my-work-h2 {
+  color: #9acd32;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.my-work-first-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 6px;
+}
+
+.my-work-empty {
+  width: 100px;
+  height: 2px;
+  background: #2d2c2c;
+}
+
+.my-work-emp {
+  font-size: 1.8rem;
+  color: #2d2c2c;
+}
+
+.my-work-images {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+ gap: 2rem;
+ margin-left: 15%;
+}
+
+.my-work-image{
+  width: 200px;
+  height: 150px;
+   border-radius: .4rem;
+   margin-bottom: 5px;
+}
+
+.my-work-first-box,.my-work-second-box, .my-work-third-box, .my-work-fouth-box, .my-work-fifth-box, .my-work-sixth-box{
+  padding-top: 0.8rem;
+  width: 230px;
+   height: 188px;
+   background: #2d2c2c;
+   text-align: center;
+   border-radius: 1.5rem;
+   color: #ffffff;
+   text-transform: uppercase;
+   border: 1.4px solid #000000;
+   box-shadow: 5px 5px #000000;
+   font-size: .8rem;
+}
+/*My work styling ends here*/
+
+/*Make my website styling starts here*/
+
+.make-my-web{
+  width: 100%;
+  height: 50vh;
+  background: #525351;
+  padding-top: 10vh;
+  
+  
+}
+
+.make-my-wedsite-div{
+  width: 94%;
+  height: 30vh;
+  background: #262525;
+  text-align: center;
+  border-radius: .4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 3%;
+}
+
+.make-my-web-h4-1 {
+  width: 70%;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.make-my-web-h4-2 {
+  width: 100%;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1.5;
+  padding-right: 2rem;
+  font-size: 0.9rem;
+}
+
+.make-my-web-h4-span {
+  color: #9acd32;
+}
+
+.make-my-wedsite-empty-div {
+  width: 120px;
+  height: 2px;
+  background: #9acd32;
+  border-radius: 2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.4rem;
+}
+
+.make-my-web-btn-text{
+  background-color: #9acd32;
+  border:  2px solid #9acd32;
+  padding: 9px 18px;
+  border-radius: 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000000;
+}
+.make-my-web-btn-text a{color: #000000;}
+.make-my-web-btn-text:hover{
+  background-color: #000000;
+  box-shadow: 2px 1px 3px 2px #9acd32;
+}
+.make-my-web-btn-text a:hover{
+  color: #9acd32;
+}
+
+/*Make my website styling ends here*/
+
+/*The footer styling starts here*/
+
+.footer{
+  width: 100%;
+  height: 36vh;
+  background: #262525;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-h2-logo{
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.footer-link{
+  display: flex;
+  padding-top: 0.6rem;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.footer-link li a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.footer-link li a:hover{
+  color: #9acd32;
+  transition: all .3s ease;
+}
+
+.footer-social-link {
+  margin-top: 1rem;
+  height: 2.5rem;
+
+}
+
+.footer-social {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+}
+
+.footer-social-icon {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #ffffff;
+  }
+  
+  .footer-social-icon:hover{
+    color: #9acd32;
+    transition: all .3s ease;
+  }
+
+   .copy-right-statement{
+    margin-top: 1.2rem;
+   }
+  
+  .footer-paragraph {
+    color: #9acd32;
+  }
+/*The footer styling ends here*/
+
+@media(max-width: 400px){
+  /*The header styling starts here*/
+
+  .nav-container .mainMenu{
+    height: 100vh; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    transition: top 1s ease;
+    display: none;
+ }
+ .nav-container .mainMenu .closeMenu {
+     display: block;
+     position: absolute;
+     top: 20px;
+     right: 20px;
+ }
+ .nav-container .openMenu{
+     display: block; 
+ }
+ .nav-container .mainMenu li a:hover{
+     background: none;
+     color: blanchedalmond;
+     font-size: 1.6rem;
+ }
+
+  .header {
+    width: 100%;
+    height: 120vh;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 10vh;
+    margin-left: 1%;
+    margin-right: 0%;
+    padding-top: 5vh;
+  }
+  
+  .logo{
+    cursor: pointer;
+  }
+  
+  .openMenu {
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: block;
+  }
+  
+   .closeMenu:hover{
+    color: #ffffff;
+  }
+  
+  .nav-bar{
+    width: 60%;
+    height: 35vh;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+    box-shadow: 2px 1px 3px 2px #000000;
+    text-align: center;
+    display: none;
+    
+  }
+  
+  .mainMenu {
+    display: flex;
+    padding-top: 0.4rem;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hero-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 6%;
+    padding-top: 3rem;
+  }
+  
+  .first-hero-par {
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+  }
+  
+  h1{
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+  
+  .job{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    word-spacing: 0;
+  }
+  
+  .hr{
+    width: 7.5rem;
+  }
+  
+  .hero-par-02 {
+    width: 80%;
+    font-size: 0.7rem;
+    
+  }
+  
+  .second-hero-par{
+    margin-bottom: 0.5rem;
+    word-spacing: 0px;
+    
+  }
+  
+  .hire {
+    margin-top: 18px;
+    width: 240px;
+    padding-bottom: 8px;
+  }
+  
+  .hire-a{
+    color: #000000;
+    font-size: 1.2rem;
+    margin-left: 60px;
+    font-size: 2.2rem;
+    
+  }
+  
+  .hero-image {
+    width: 247px;
+    height: 247px;
+    border-radius: 50%;
+    margin-top: 24px;
+    
+  }
+  
+  .hero-img{
+    width: 238px;
+    height: 238px;
+    border-radius: 50%;
+    margin-top: 4.6px;
+    margin-left: 3.8px;
+  }
+  
+  .hero-social-link {
+    width: 290px;
+    height: 8vh;
+    text-align: center;
+    border-top-right-radius: 1.3rem;
+    border-bottom-left-radius: 0rem;
+  }
+  
+  .social{
+  flex-direction: row;
+  margin-left: 0;
+  }
+  .social-icon {
+  font-size: 1.8rem;
+  }
+  /*The header styling ends here*/
+   
+  /*The brief info section styling starts here*/
+
+.div-brief-info {
+  gap: 1.4rem;
+  width: 86%;
+  margin-left: 6%;
+  margin-right: 0%;
+  height: 10.5vh;
+  border-radius: 1rem;
+  opacity: 0.9;
+}
+.job-experence, .project-done, .support{
+  gap: 10px;
+  margin-left: 8px;
+  font-size: 0.7rem;
+}
+/*The brief info section styling ends here*/
+
+/*The about section styling starts here*/
+.about-section {
+  height: max-content;
+  padding-bottom: 2rem;
+}
+
+.about-div {
+  margin-left: 1.8rem;
+  margin-right: 0rem;
+  flex-direction: column;
+}
+
+.about-text, .about-image{
+  padding-top: 2rem;
+}
+
+.about-01-para {
+  letter-spacing: 0px;
+  word-spacing: 0.3px;
+}
+
+.about-h2{
+  color: #9acd32;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  font-size: 1.8rem;
+  margin-top: 1px;
+}
+
+.about-02-para-div{
+  margin-top: 1.8rem;
+  width: 92%;
+  color: #ffffff;
+  letter-spacing: 1px;
+  word-spacing: 0.5px;
+}
+
+.about-img-class{
+  width: 316px;
+  height: 200px;
+  border-radius: .3rem;
+  margin-right: 0rem;
+}
+/*The about section styling ends here*/
+
+/*The services section styling starts here*/
+
+.services {
+  width: 100%;
+  height: max-content;
+  background: #525351;
+  padding-bottom: 2rem;
+}
+
+.services-div{
+  width: 88%;
+  margin-left: 1rem;
+
+}
+
+.about-text {
+  text-align: center;
+}
+
+.services-paragraph{
+
+  word-spacing: 1px;
+  letter-spacing: 0.6px;
+}
+
+.services-h2 {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 1.4rem;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.service-box-h2{
+  margin-bottom: 0.5rem;
+}
+
+.services-first-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-empty {
+  width: 75px;
+  height: 2px;
+  border-radius: 2rem;
+}
+
+.services-emp {
+  font-size: 1.6rem;
+}
+
+.services-images {
+  margin-top: 0.8rem;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.services-first-box, .services-second-box, .services-third-box {
+  width: 250px;
+  height: 130px;
+  padding-top: 0.5rem;
+}
+
+.icon {
+  font-size: 2.5rem;
+}
+
+.service-paragraph {
+  letter-spacing: 0.5px;
+  line-height: 1rem;
+}
+/*The services section styling ends here*/
+
+/*My work styling starts here*/
+
+.my-work {
+  height: max-content;
+padding-bottom: 3rem;
+}
+
+.my-work-div {
+  width: 88%;
+ margin-left: 2rem;
+}
+
+.my-work-text{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 5px;
+}
+
+.my-work-paragraph {
+  word-spacing: 1px;
+  letter-spacing: 0.6px;
+}
+
+.my-work-h2 {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 1.5rem;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.my-work-box-h2 {
+  font-size: 1rem;
+}
+
+.my-work-first-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 6px;
+}
+
+.my-work-empty {
+  width: 90px;
+  height: 2px;
+}
+
+.my-work-emp {
+  font-size: 1.5rem;
+}
+
+.my-work-images {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+ gap: 1.2rem;
+ margin-left: 2.2rem;
+}
+
+.my-work-image{
+  width: 200px;
+  height: 100px;
+   border-radius: .4rem;
+   margin-bottom: 0.8px;
+}
+
+.my-work-first-box,.my-work-second-box, .my-work-third-box, .my-work-fouth-box, .my-work-fifth-box, .my-work-sixth-box{
+  padding-top: 0.3rem;
+  width: 230px;
+   height: 120px;
+   border-radius: 1rem;
+   font-size: .7rem;
+}
+/*My work styling ends here*/
+
+/*Make my website styling starts here*/
+
+.make-my-web{
+  width: 100%;
+  height: max-content;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.make-my-wedsite-div{
+  width: 80%;
+  height: 30vh;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.make-my-web-h4-1 {
+  width: 75%;
+  line-height: 1.5;
+  font-size: 0.6rem;
+}
+
+.make-my-web-h4-2 {
+  width: 100%;
+  line-height: 1.5;
+  padding-right: 1rem;
+  font-size: 0.7rem;
+}
+
+.make-my-wedsite-empty-div {
+  margin-top: 1rem;
+  margin-bottom: 1.1rem;
+}
+
+/*Make my website styling ends here*/
+
+/*The footer styling starts here*/
+
+.footer{
+  width: 100%;
+  height: 32vh;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-h2-logo{
+  cursor: pointer;
+  margin-top: .7rem;
+}
+
+.footer-link{
+  display: flex;
+  padding-top: 0.4rem;
+  gap: 12px;
+  justify-content: space-evenly;
+}
+
+.footer-link li a {
+  font-size: .5rem;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+
+.footer-social-link {
+  margin-top: .8rem;
+  height: 2.5rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+}
+
+.footer-social-icon {
+  font-size: 1.2rem;
+  }
+
+   .copy-right-statement{
+    margin-top: 0.1rem;
+   }
+  
+  .footer-paragraph {
+    font-size: .8rem;
+  }
+/*The footer styling ends here*/
+
+}
