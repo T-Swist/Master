@@ -1,0 +1,38 @@
+{
+  "name": "portfolio-server",
+  "version": "1.0.0",
+  "description": "Thompson's Portfolio - Express Backend API",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [],
+  "author": "Thompson N Daiminah Jr",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.4.0",
+    "express-validator": "^7.0.0",
+    "express-rate-limit": "^7.1.0",
+    "morgan": "^1.10.0",
+    "googleapis": "^133.0.0",
+    "@sendgrid/mail": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/cors": "^2.8.0",
+    "@types/morgan": "^1.9.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.0",
+    "nodemon": "^3.0.0",
+    "ts-node": "^10.9.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.56.0"
+  }
+}

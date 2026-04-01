@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Thompson N Daiminah Jr.",
+    "title": "Web",
+    "developer": "Desarrollador",
+    "designer": "Diseñador",
+    "description": "Soy diseñador y desarrollador web de Liberia. Creo sitios web personalizados para ayudar a las empresas a establecer una sólida presencia en línea.",
+    "cta": "Contrátame"
+  },
+  "about": {
+    "intro": "Mi Introducción",
+    "title": "Sobre Mí",
+    "greeting": "¡Saludos! Soy un apasionado desarrollador y diseñador web de Liberia con un ojo agudo para crear sitios web hermosos y funcionales que ayudan a las empresas a establecer una fuerte presencia en línea.",
+    "experience": "Con 8 meses de estudio dedicado y experiencia práctica, he desarrollado experiencia en tecnologías web modernas y principios de diseño.",
+    "mission": "Mi Misión",
+    "missionText": "Mi misión es empoderar a empresas e individuos creando experiencias digitales excepcionales que impulsen el crecimiento y el compromiso."
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Lo Que Ofrezco",
+    "webDev": {
+      "title": "Desarrollo Web",
+      "description": "Construcción de sitios web responsivos y enfocados en conversión utilizando tecnologías modernas y mejores prácticas."
+    },
+    "webDesign": {
+      "title": "Diseño Web",
+      "description": "Creación de diseños hermosos y fáciles de usar que dan vida a tus ideas."
+    },
+    "uiux": {
+      "title": "Diseño UI/UX",
+      "description": "Creación de experiencias de usuario únicas e intuitivas en Figma con atención al detalle."
+    }
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "subtitle": "Mi Trabajo"
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "subtitle": "Lo Que Dicen Los Clientes"
+  },
+  "skills": {
+    "title": "Habilidades y Tecnologías",
+    "subtitle": "Mi Experiencia"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Últimos Artículos",
+    "readMore": "Leer Más"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "¿Tienes un proyecto en mente? Trabajemos juntos para dar vida a tu visión.",
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "company": "Empresa/Organización",
+    "projectType": "Tipo de Proyecto",
+    "budget": "Rango de Presupuesto",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando..."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "cta": {
+    "title": "¡Permíteme crear un sitio web impresionante para ti que te dejará asombrado!",
+    "button": "Crear mi sitio web"
+  },
+  "resume": {
+    "download": "Descargar Currículum",
+    "title": "Currículum",
+    "experience": "Experiencia",
+    "education": "Educación"
+  },
+  "common": {
+    "learnMore": "Aprende Más",
+    "viewAll": "Ver Todo",
+    "backToTop": "Volver Arriba"
+  }
+}

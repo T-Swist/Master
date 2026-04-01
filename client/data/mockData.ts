@@ -1,0 +1,212 @@
+export const testimonials = [
+  {
+    id: '1',
+    name: 'Sarah Johnson',
+    position: 'CEO, TechStart Inc.',
+    company: 'TechStart Inc.',
+    image: 'portfolio/testimonials/client-1',
+    rating: 5,
+    text: 'Thompson delivered an exceptional website that exceeded our expectations. His attention to detail and creative approach transformed our online presence completely.',
+  },
+  {
+    id: '2',
+    name: 'Michael Chen',
+    position: 'Marketing Director',
+    company: 'Digital Solutions',
+    image: 'portfolio/testimonials/client-2',
+    rating: 5,
+    text: 'Working with Thompson was a pleasure. He understood our vision perfectly and created a stunning, user-friendly website that our customers love.',
+  },
+  {
+    id: '3',
+    name: 'Emily Rodriguez',
+    position: 'Founder',
+    company: 'Creative Studio',
+    image: 'portfolio/testimonials/client-3',
+    rating: 5,
+    text: 'Professional, responsive, and incredibly talented. Thompson brought our brand to life with a beautiful website that perfectly captures our essence.',
+  },
+];
+
+export const skills = [
+  { name: 'HTML5', level: 95, category: 'frontend' },
+  { name: 'CSS3/SCSS', level: 90, category: 'frontend' },
+  { name: 'JavaScript', level: 88, category: 'frontend' },
+  { name: 'TypeScript', level: 85, category: 'frontend' },
+  { name: 'React', level: 87, category: 'frontend' },
+  { name: 'Next.js', level: 83, category: 'frontend' },
+  { name: 'Tailwind CSS', level: 92, category: 'frontend' },
+  { name: 'Node.js', level: 80, category: 'backend' },
+  { name: 'Express.js', level: 78, category: 'backend' },
+  { name: 'MongoDB', level: 75, category: 'backend' },
+  { name: 'Figma', level: 90, category: 'design' },
+  { name: 'Adobe XD', level: 85, category: 'design' },
+  { name: 'UI/UX Design', level: 88, category: 'design' },
+  { name: 'Git/GitHub', level: 82, category: 'tools' },
+  { name: 'Responsive Design', level: 93, category: 'tools' },
+];
+
+export const blogPosts = [
+  {
+    id: '1',
+    title: 'The Future of Web Development in 2026',
+    slug: 'future-of-web-development-2026',
+    excerpt: 'Exploring the latest trends and technologies shaping the future of web development, from AI integration to advanced frameworks.',
+    content: 'Full blog post content here...',
+    image: 'portfolio/blog/post-1',
+    author: 'Thompson N Daiminah Jr',
+    date: '2026-03-15',
+    readTime: '5 min read',
+    category: 'Web Development',
+    tags: ['Web Dev', 'Trends', 'Technology'],
+  },
+  {
+    id: '2',
+    title: 'Mastering UI/UX Design Principles',
+    slug: 'mastering-ui-ux-design-principles',
+    excerpt: 'A comprehensive guide to creating user-centered designs that engage and convert visitors into loyal customers.',
+    content: 'Full blog post content here...',
+    image: 'portfolio/blog/post-2',
+    author: 'Thompson N Daiminah Jr',
+    date: '2026-03-10',
+    readTime: '7 min read',
+    category: 'Design',
+    tags: ['UI/UX', 'Design', 'Best Practices'],
+  },
+  {
+    id: '3',
+    title: 'Building Responsive Websites with Tailwind CSS',
+    slug: 'building-responsive-websites-tailwind',
+    excerpt: 'Learn how to leverage Tailwind CSS to create beautiful, responsive websites faster and more efficiently.',
+    content: 'Full blog post content here...',
+    image: 'portfolio/blog/post-3',
+    author: 'Thompson N Daiminah Jr',
+    date: '2026-03-05',
+    readTime: '6 min read',
+    category: 'CSS',
+    tags: ['Tailwind', 'CSS', 'Responsive'],
+  },
+];
+
+export const caseStudies = [
+  {
+    id: '1',
+    title: 'Jett Electric - Complete Brand Redesign',
+    slug: 'jett-electric-redesign',
+    client: 'Jett Electric Services',
+    year: '2026',
+    category: 'Web Development & Branding',
+    image: 'portfolio/projects/jett-electric',
+    challenge: 'Jett Electric needed a modern website that would establish trust with potential customers and showcase their electrical services professionally.',
+    solution: 'Designed and developed a fully responsive website with a clean, professional aesthetic. Implemented a service booking system and customer testimonials section.',
+    results: [
+      '150% increase in online inquiries',
+      '80% improvement in mobile user engagement',
+      '95% positive customer feedback',
+    ],
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
+    features: [
+      'Online booking system',
+      'Service catalog',
+      'Customer testimonials',
+      'Contact forms',
+      'Mobile-first design',
+    ],
+    testimonial: {
+      text: 'Thompson transformed our online presence. We\'ve seen a significant increase in customer inquiries since launching the new website.',
+      author: 'John Smith, Owner',
+    },
+  },
+  {
+    id: '2',
+    title: 'T-Swist Menu - Restaurant Digital Experience',
+    slug: 't-swist-menu-restaurant',
+    client: 'T-Swist Restaurant',
+    year: '2026',
+    category: 'Web Application',
+    image: 'portfolio/projects/t-swist-menu',
+    challenge: 'Create an interactive digital menu that enhances the dining experience and reduces printing costs.',
+    solution: 'Developed a dynamic web application with real-time menu updates, high-quality food photography, and easy navigation.',
+    results: [
+      '100% reduction in menu printing costs',
+      'Faster table turnover',
+      'Enhanced customer experience',
+    ],
+    technologies: ['React', 'Next.js', 'Tailwind CSS', 'API Integration'],
+    features: [
+      'Real-time menu updates',
+      'Category filtering',
+      'Search functionality',
+      'Allergen information',
+      'Multi-language support',
+    ],
+    testimonial: {
+      text: 'The digital menu has revolutionized how we present our offerings. Customers love the interactive experience!',
+      author: 'Maria Garcia, Restaurant Manager',
+    },
+  },
+];
+
+export const resumeData = {
+  experience: [
+    {
+      id: '1',
+      title: 'Freelance Web Developer & Designer',
+      company: 'Self-Employed',
+      location: 'Liberia',
+      period: '2025 - Present',
+      description: 'Creating custom websites and digital solutions for businesses across various industries.',
+      achievements: [
+        'Completed 10+ successful projects',
+        'Maintained 100% client satisfaction rate',
+        'Specialized in responsive design and modern frameworks',
+      ],
+    },
+    {
+      id: '2',
+      title: 'Web Development Intern',
+      company: 'Tech Solutions Ltd',
+      location: 'Monrovia, Liberia',
+      period: '2024 - 2025',
+      description: 'Assisted in developing and maintaining client websites, learning industry best practices.',
+      achievements: [
+        'Contributed to 5 major projects',
+        'Learned React and Next.js',
+        'Improved website performance by 40%',
+      ],
+    },
+  ],
+  education: [
+    {
+      id: '1',
+      degree: 'Web Development Certification',
+      institution: 'Online Learning Platform',
+      location: 'Online',
+      period: '2024',
+      description: 'Comprehensive web development program covering HTML, CSS, JavaScript, React, and Node.js.',
+    },
+    {
+      id: '2',
+      degree: 'UI/UX Design Course',
+      institution: 'Design Academy',
+      location: 'Online',
+      period: '2024',
+      description: 'Advanced course in user interface and user experience design principles using Figma.',
+    },
+  ],
+};
+
+export const socialProof = {
+  githubStats: {
+    repos: 15,
+    stars: 47,
+    followers: 23,
+    contributions: 342,
+  },
+  achievements: [
+    { label: 'Projects Completed', value: '10+' },
+    { label: 'Happy Clients', value: '8' },
+    { label: 'Code Commits', value: '500+' },
+    { label: 'Coffee Consumed', value: '∞' },
+  ],
+};

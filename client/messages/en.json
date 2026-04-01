@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Thompson N Daiminah Jr.",
+    "title": "Web",
+    "developer": "Developer",
+    "designer": "Designer",
+    "description": "I'm a web designer and developer from Liberia. I craft personalized websites to assist businesses in establishing a strong online presence.",
+    "cta": "Hire Me"
+  },
+  "about": {
+    "intro": "My Intro",
+    "title": "About Me",
+    "greeting": "Greetings! I'm a passionate web developer and designer from Liberia with a keen eye for creating beautiful, functional websites that help businesses establish a strong online presence.",
+    "experience": "With 8 months of dedicated study and hands-on experience, I've developed expertise in modern web technologies and design principles.",
+    "mission": "My Mission",
+    "missionText": "My mission is to empower businesses and individuals by creating exceptional digital experiences that drive growth and engagement."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "What I Offer",
+    "webDev": {
+      "title": "Web Development",
+      "description": "Building responsive, conversion-focused websites using modern technologies and best practices."
+    },
+    "webDesign": {
+      "title": "Web Design",
+      "description": "Crafting beautiful, user-friendly designs that bring your ideas to reality."
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "Creating unique, intuitive user experiences in Figma with attention to detail."
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "My Work"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What Clients Say"
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "My Expertise"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Latest Articles",
+    "readMore": "Read More"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind? Let's work together to bring your vision to life.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "company": "Company/Organization",
+    "projectType": "Project Type",
+    "budget": "Budget Range",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending..."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "cta": {
+    "title": "Allow me to create an impressive website for you that will leave you amazed!",
+    "button": "Make my website"
+  },
+  "resume": {
+    "download": "Download Resume",
+    "title": "Resume",
+    "experience": "Experience",
+    "education": "Education"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "backToTop": "Back to Top"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "blog": "Blog",
+    "caseStudies": "Casos de Estudio",
+    "resume": "Currículum",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Thompson N Daiminah. Jr",
+    "title": "Web",
+    "role1": "Desarrollador",
+    "role2": "Electricista",
+    "description": "Soy desarrollador de aplicaciones web y móviles y electricista residencial de Liberia. Construyo soluciones digitales potentes y proporciono servicios eléctricos profesionales.",
+    "cta": "Contrátame"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "subtitle": "Conóceme mejor",
+    "description": "Soy un apasionado desarrollador de aplicaciones web y móviles y electricista residencial certificado con sede en Liberia. Con experiencia tanto en soluciones digitales como en servicios eléctricos, aporto una perspectiva única a cada proyecto.",
+    "yearsExperience": "Años de Experiencia",
+    "projectsCompleted": "Proyectos Completados",
+    "happyClients": "Clientes Satisfechos"
+  },
+  "services": {
+    "title": "Mis Servicios",
+    "subtitle": "Lo que ofrezco",
+    "webDev": {
+      "title": "Desarrollo Web",
+      "description": "Sitios web y aplicaciones web personalizadas construidas con tecnologías modernas"
+    },
+    "mobileDev": {
+      "title": "Desarrollo de Aplicaciones Móviles",
+      "description": "Aplicaciones móviles nativas y multiplataforma para iOS y Android"
+    },
+    "electrical": {
+      "title": "Servicios Eléctricos Residenciales",
+      "description": "Instalaciones, reparaciones y mantenimiento eléctrico profesional"
+    },
+    "uiux": {
+      "title": "Diseño UI/UX",
+      "description": "Soluciones de diseño centradas en el usuario para productos digitales"
+    }
+  },
+  "skills": {
+    "title": "Habilidades y Tecnologías",
+    "subtitle": "Mi experiencia técnica",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "design": "Diseño",
+    "tools": "Herramientas"
+  },
+  "portfolio": {
+    "title": "Mi Portafolio",
+    "subtitle": "Proyectos recientes",
+    "viewProject": "Ver Proyecto",
+    "viewAll": "Ver Todos los Proyectos"
+  },
+  "testimonials": {
+    "title": "Testimonios de Clientes",
+    "subtitle": "Lo que los clientes dicen sobre mi trabajo"
+  },
+  "socialProof": {
+    "title": "Logros y Estadísticas",
+    "subtitle": "Mi trayectoria profesional",
+    "githubStars": "Estrellas de GitHub",
+    "contributions": "Contribuciones",
+    "repositories": "Repositorios",
+    "followers": "Seguidores"
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar tu Proyecto?",
+    "subtitle": "Trabajemos juntos para dar vida a tus ideas",
+    "button": "Ponte en Contacto"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Hablemos de tu proyecto",
+    "name": "Tu Nombre",
+    "email": "Tu Correo Electrónico",
+    "message": "Tu Mensaje",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "madeWith": "Hecho con",
+    "by": "por"
+  },
+  "blog": {
+    "title": "Blog y Artículos",
+    "subtitle": "Pensamientos, tutoriales e ideas",
+    "readMore": "Leer Más",
+    "minRead": "min de lectura"
+  },
+  "caseStudies": {
+    "title": "Casos de Estudio",
+    "subtitle": "Desglose detallado de proyectos",
+    "challenge": "Desafío",
+    "solution": "Solución",
+    "results": "Resultados",
+    "technologies": "Tecnologías Utilizadas",
+    "client": "Cliente",
+    "duration": "Duración",
+    "viewLive": "Ver Sitio en Vivo"
+  },
+  "resume": {
+    "title": "Currículum",
+    "subtitle": "Mi trayectoria profesional y cualificaciones",
+    "download": "Descargar PDF",
+    "experience": "Experiencia",
+    "education": "Educación"
+  },
+  "cookie": {
+    "message": "Utilizamos cookies para mejorar su experiencia de navegación y analizar nuestro tráfico. Al hacer clic en 'Aceptar', usted acepta nuestro uso de cookies.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "learnMore": "Más Información"
+  }
+}
