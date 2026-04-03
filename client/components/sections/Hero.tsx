@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Facebook, Github, Linkedin, Instagram, Twitter } from 'lucide-react';
+import { Facebook, Github, Linkedin, Instagram, MessageCircle } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Hero() {
@@ -52,7 +52,7 @@ export default function Hero() {
     { href: 'https://web.facebook.com/tswist.daiminah', icon: Facebook, label: 'Facebook' },
     { href: 'https://github.com/T-Swist', icon: Github, label: 'GitHub' },
     { href: 'https://www.linkedin.com/in/thompson-daiminah-ba614929a/', icon: Linkedin, label: 'LinkedIn' },
-    { href: 'https://twitter.com/your-twitter', icon: Twitter, label: 'Twitter' },
+    { href: 'https://wa.me/+231881617698', icon: MessageCircle, label: 'WhatsApp' },
     { href: 'https://instagram.com/your-instagram', icon: Instagram, label: 'Instagram' },
   ];
 
@@ -61,15 +61,15 @@ export default function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <p className="text-white text-lg">{t('hero.greeting')}</p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-accent uppercase tracking-wide">
+            <p className="text-white text-md">{t('hero.greeting')}</p>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-accent uppercase tracking-wide">
               {t('hero.name')}
             </h1>
-            <h3 className="text-2xl md:text-3xl text-white">
+            <h3 className="text-lg md:text-xl text-white">
               {t('hero.title')} <span ref={typedRef} className="text-primary-accent"></span>
             </h3>
             <div className="w-24 h-0.5 bg-primary-accent"></div>
-            <p className="text-white text-lg leading-relaxed max-w-lg">
+            <p className="text-white text-md leading-relaxed max-w-lg">
               {t('hero.description')}
             </p>
             <Link
@@ -81,10 +81,10 @@ export default function Hero() {
           </div>
 
           <div className="flex justify-center items-center">
-            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-primary-accent p-1">
+            <div className="relative w-60 h-60 md:w-72 md:h-72 rounded-full bg-primary-accent p-1">
               <div className="relative w-full h-full rounded-full overflow-hidden">
                 <Image
-                  src="/FB_IMG_16695865606265232.jpg"
+                  src="/passphoto.jpeg"
                   alt="Thompson N Daiminah Jr"
                   fill
                   className="object-cover"

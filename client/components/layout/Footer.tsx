@@ -13,15 +13,10 @@ export default function Footer() {
     { href: '/about', label: t('nav.about') },
     { href: '/services', label: t('nav.services') },
     { href: '/portfolio', label: t('nav.portfolio') },
+    { href: '/case-studies', label: t('nav.caseStudies') },
+    { href: '/blog', label: t('nav.blog') },
+    { href: '/resume', label: t('nav.resume') },
     { href: '/contact', label: t('nav.contact') },
-  ];
-
-  const socialLinks = [
-    { href: 'https://web.facebook.com/tswist.daiminah', icon: Facebook, label: 'Facebook' },
-    { href: 'https://github.com/T-Swist', icon: Github, label: 'GitHub' },
-    { href: 'https://www.linkedin.com/in/thompson-daiminah-ba614929a/', icon: Linkedin, label: 'LinkedIn' },
-    { href: 'https://twitter.com/your-twitter', icon: Twitter, label: 'Twitter' },
-    { href: 'https://instagram.com/your-instagram', icon: Instagram, label: 'Instagram' },
   ];
 
   return (
@@ -53,24 +48,6 @@ export default function Footer() {
               ))}
             </ul>
           </nav>
-
-          <div className="flex items-center gap-6">
-            {socialLinks.map((social) => {
-              const Icon = social.icon;
-              return (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:text-primary-accent transition-colors duration-300"
-                  aria-label={social.label}
-                >
-                  <Icon size={24} />
-                </a>
-              );
-            })}
-          </div>
 
           <div className="text-center">
             <p className="text-primary-accent text-sm">

@@ -5,7 +5,7 @@ import { Download, Briefcase, GraduationCap, MapPin, Calendar } from 'lucide-rea
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { fadeIn, staggerContainer } from '@/lib/animations';
-import { experience, education } from '@/data/mockData';
+import { resumeData } from '@/data/mockData';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { logResumeDownload } from '@/lib/analytics';
 

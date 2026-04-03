@@ -120,7 +120,6 @@ export default function ContactForm() {
             <option value="Web Development">{t('services.webDev.title')}</option>
             <option value="Mobile App Development">{t('services.mobileDev.title')}</option>
             <option value="Electrical Services">{t('services.electrical.title')}</option>
-            <option value="UI/UX Design">{t('services.uiux.title')}</option>
             <option value="Other">Other</option>
           </select>
           {errors.projectType && (
@@ -159,7 +158,7 @@ export default function ContactForm() {
           id="message"
           rows={6}
           className="w-full px-4 py-3 bg-background-card border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-accent transition-colors resize-none"
-          placeholder={t('contact.messagePlaceholder')}
+          placeholder={t('Leave Your Message Here')}
         />
         {errors.message && (
           <p className="text-red-500 text-sm mt-1">{errors.message.message}</p>

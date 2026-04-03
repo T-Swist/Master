@@ -31,19 +31,16 @@ export const testimonials = [
 export const skills = [
   { name: 'HTML5', level: 95, category: 'frontend' },
   { name: 'CSS3/SCSS', level: 90, category: 'frontend' },
-  { name: 'JavaScript', level: 88, category: 'frontend' },
-  { name: 'TypeScript', level: 85, category: 'frontend' },
-  { name: 'React', level: 87, category: 'frontend' },
+  { name: 'JavaScript', level: 60, category: 'frontend' },
+  { name: 'TypeScript', level: 65, category: 'frontend' },
+  { name: 'React', level: 77, category: 'frontend' },
   { name: 'Next.js', level: 83, category: 'frontend' },
-  { name: 'Tailwind CSS', level: 92, category: 'frontend' },
-  { name: 'Node.js', level: 80, category: 'backend' },
+  { name: 'Tailwind CSS', level: 72, category: 'frontend' },
+  { name: 'Node.js', level: 60, category: 'backend' },
   { name: 'Express.js', level: 78, category: 'backend' },
-  { name: 'MongoDB', level: 75, category: 'backend' },
-  { name: 'Figma', level: 90, category: 'design' },
-  { name: 'Adobe XD', level: 85, category: 'design' },
-  { name: 'UI/UX Design', level: 88, category: 'design' },
-  { name: 'Git/GitHub', level: 82, category: 'tools' },
-  { name: 'Responsive Design', level: 93, category: 'tools' },
+  { name: 'PostgresDB', level: 50, category: 'backend' },
+  { name: 'Git/GitHub', level: 72, category: 'tools' },
+  { name: 'Responsive Design', level: 90, category: 'tools' },
 ];
 
 export const blogPosts = [
@@ -151,13 +148,13 @@ export const resumeData = {
   experience: [
     {
       id: '1',
-      title: 'Freelance Web Developer & Designer',
+      title: 'Freelance Web Developer & Electrician',
       company: 'Self-Employed',
       location: 'Liberia',
-      period: '2025 - Present',
+      period: '2024 - Present',
       description: 'Creating custom websites and digital solutions for businesses across various industries.',
       achievements: [
-        'Completed 10+ successful projects',
+        'Completed 6+ successful projects',
         'Maintained 100% client satisfaction rate',
         'Specialized in responsive design and modern frameworks',
       ],
@@ -187,10 +184,10 @@ export const resumeData = {
     },
     {
       id: '2',
-      degree: 'UI/UX Design Course',
+      degree: 'Electrical Certification',
       institution: 'Design Academy',
       location: 'Online',
-      period: '2024',
+      period: '2022',
       description: 'Advanced course in user interface and user experience design principles using Figma.',
     },
   ],

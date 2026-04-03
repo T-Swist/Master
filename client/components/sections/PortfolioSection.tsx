@@ -8,12 +8,12 @@ import { useLanguage } from '@/contexts/LanguageContext';
 export default function PortfolioSection() {
   const { t } = useLanguage();
   const projects = [
-    { id: '1', title: 'Jett Electric', image: '/images/project-1.png' },
-    { id: '2', title: 'T-Swist Fingers', image: '/images/project-2.png' },
-    { id: '3', title: 'T-Swist Menu', image: '/images/Project04.jpg' },
-    { id: '4', title: 'Thompson', image: '/images/Screenshot (11).png' },
-    { id: '5', title: 'Dream To Live', image: '/images/p.png' },
-    { id: '6', title: "Comfort's Menu", image: '/images/Screenshot (26).png' },
+    { id: '1', title: 'Jett Electric', image: '/project-1.png' },
+    { id: '2', title: 'T-Swist Fingers', image: '/project-2.png' },
+    { id: '3', title: 'T-Swist Menu', image: '/Project04.jpg' },
+    { id: '4', title: 'Whip In Time', image: '/Screenshot (11).png' },
+    { id: '5', title: 'Dream To Live', image: '/p.png' },
+    { id: '6', title: "Comfort's Menu", image: '/Screenshot (26).png' },
   ];
 
   return (
