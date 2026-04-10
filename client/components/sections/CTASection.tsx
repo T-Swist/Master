@@ -18,7 +18,7 @@ export default function CTASection() {
           <div className="w-32 h-0.5 bg-primary-accent mx-auto"></div>
           <Link
             href="/contact"
-            className="inline-block bg-primary-accent text-background px-10 py-4 rounded-full text-lg font-bold uppercase hover:bg-background hover:text-primary-accent border-2 border-primary-accent transition-all duration-300 shadow-lg hover:shadow-primary-accent/50"
+            className="inline-block bg-primary-accent text-background px-6 py-2 rounded-full text-md font-bold uppercase hover:bg-background hover:text-primary-accent border-2 border-primary-accent transition-all duration-300 shadow-lg hover:shadow-primary-accent/50"
           >
             {t('cta.button')}
           </Link>

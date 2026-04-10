@@ -11,11 +11,14 @@
   },
   "hero": {
     "greeting": "Hola, soy",
-    "name": "Thompson N Daiminah. Jr",
-    "title": "Web",
-    "role1": "Desarrollador",
+    "name": "Thompson N Daiminah Jr.",
+    "title1": "Frontend",
+    "title2": "Residencial",
+    "title3": "Móvil",
+    "role1": "Desarrollador Web",
     "role2": "Electricista",
-    "description": "Soy desarrollador de aplicaciones web y móviles y electricista residencial de Liberia. Construyo soluciones digitales potentes y proporciono servicios eléctricos profesionales.",
+    "role3": "Desarrollador de Apps",
+    "description": "Soy desarrollador Frontend y de aplicaciones móviles de Liberia. Creo sitios web personalizados para ayudar a las empresas a establecer una sólida presencia en línea.",
     "cta": "Contrátame"
   },
   "about": {

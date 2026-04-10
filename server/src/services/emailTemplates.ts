@@ -22,7 +22,7 @@ export const getAutoResponseTemplate = (data: ContactFormData): string => {
   <div class="container">
     <div class="header">
       <h1>Thompson N Daiminah Jr</h1>
-      <p>Web Developer & Designer</p>
+      <p>Frontend Web Developer, Mobile App Developer & Residential Electrician</p>
     </div>
     
     <div class="content">
@@ -34,16 +34,16 @@ export const getAutoResponseTemplate = (data: ContactFormData): string => {
       
       <h3>My Services</h3>
       <div class="service-box">
-        <h4>🌐 Web Development</h4>
+        <h4>🌐Frontend Web Development</h4>
         <p>Building responsive, conversion-focused websites using modern technologies.</p>
       </div>
       <div class="service-box">
-        <h4>🎨 Web Design</h4>
-        <p>Crafting beautiful, user-friendly designs that bring your ideas to reality.</p>
+        <h4>🎨Frontend Mobile App Development</h4>
+        <p>Building responsive, conversion-focused mobile applications using modern technologies.</p>
       </div>
       <div class="service-box">
-        <h4>✨ UI/UX Design</h4>
-        <p>Creating unique, intuitive user experiences in Figma.</p>
+        <h4>✨ Residential Electrician</h4>
+        <p>Providing safe, reliable electrical services for homes and businesses.</p>
       </div>
       
       <h3>Portfolio Highlights</h3>
@@ -64,7 +64,7 @@ export const getAutoResponseTemplate = (data: ContactFormData): string => {
     
     <div class="footer">
       <p><strong>Thompson N Daiminah Jr</strong></p>
-      <p>Web Developer & Designer | Liberia</p>
+      <p>Web Developer, Mobile App Developer & Residential Electrician | Liberia</p>
       <p style="color: #9acd32;">Available 24/7 for Support</p>
       <p style="font-size: 12px; margin-top: 20px;">
         © ${new Date().getFullYear()} Thompson N Daiminah Jr. All rights reserved.

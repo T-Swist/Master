@@ -12,10 +12,11 @@
   "hero": {
     "greeting": "Hola, soy",
     "name": "Thompson N Daiminah Jr.",
-    "title": "Web",
-    "developer": "Desarrollador",
-    "designer": "Diseñador",
-    "description": "Soy diseñador y desarrollador web de Liberia. Creo sitios web personalizados para ayudar a las empresas a establecer una sólida presencia en línea.",
+    "title1": "Frontend",
+    "title2": "Residencial",
+    "role1": "Desarrollador Web y de Aplicaciones Móviles",
+    "role2": "Electricista",
+    "description": "Soy desarrollador Frontend y de aplicaciones móviles de Liberia. Creo sitios web personalizados para ayudar a las empresas a establecer una sólida presencia en línea.",
     "cta": "Contrátame"
   },
   "about": {

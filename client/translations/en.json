@@ -11,11 +11,14 @@
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "name": "Thompson N Daiminah. Jr",
-    "title": "Web",
-    "role1": "Developer",
+    "name": "Thompson N Daiminah Jr.",
+    "title1": "Frontend",
+    "title2": "Residential",
+    "title3": "Mobile",
+    "role1": "Web Developer",
     "role2": "Electrician",
-    "description": "I'm a web & mobile app developer and residential electrician from Liberia. I build powerful digital solutions and provide professional electrical services.",
+    "role3": "App Developer",
+    "description": "I'm a Frontend Developer and Mobile App Developer from Liberia. I craft personalized websites to assist businesses in establishing a strong online presence.",
     "cta": "Hire Me"
   },
   "about": {

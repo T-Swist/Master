@@ -12,17 +12,18 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Thompson N Daiminah Jr.",
-    "title": "Web",
-    "developer": "Developer",
-    "designer": "Designer",
-    "description": "I'm a web designer and developer from Liberia. I craft personalized websites to assist businesses in establishing a strong online presence.",
+    "title1": "Frontend",
+    "title2": "Residential",
+    "role1": "Web Developer & Mobile App Developer",
+    "role2": "Electrician",
+    "description": "I'm a Frontend Developer and Mobile App Developer from Liberia. I craft personalized websites to assist businesses in establishing a strong online presence.",
     "cta": "Hire Me"
   },
   "about": {
     "intro": "My Intro",
     "title": "About Me",
-    "greeting": "Greetings! I'm a passionate web developer and designer from Liberia with a keen eye for creating beautiful, functional websites that help businesses establish a strong online presence.",
-    "experience": "With 8 months of dedicated study and hands-on experience, I've developed expertise in modern web technologies and design principles.",
+    "greeting": "Greetings! I'm a passionate Frontend developer and mobile app developer from Liberia with a keen eye for creating beautiful, functional websites and apps that help businesses establish a strong online presence.",
+    "experience": "With 2.5 years of dedicated study and hands-on experience, I've developed expertise in modern web technologies and mobile app development.",
     "mission": "My Mission",
     "missionText": "My mission is to empower businesses and individuals by creating exceptional digital experiences that drive growth and engagement."
   },
@@ -33,13 +34,13 @@
       "title": "Web Development",
       "description": "Building responsive, conversion-focused websites using modern technologies and best practices."
     },
-    "webDesign": {
-      "title": "Web Design",
-      "description": "Crafting beautiful, user-friendly designs that bring your ideas to reality."
+    "mobileDev": {
+      "title": "Mobile App Development",
+      "description": "Building responsive, conversion-focused mobile apps using modern technologies and best practices."
     },
     "uiux": {
-      "title": "UI/UX Design",
-      "description": "Creating unique, intuitive user experiences in Figma with attention to detail."
+      "title": "Residential Electricity",
+      "description": "Maintenance, installation, and troubleshooting of residential electrical systems with attention to detail."
     }
   },
   "portfolio": {

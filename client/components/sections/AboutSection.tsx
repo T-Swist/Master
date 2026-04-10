@@ -17,7 +17,7 @@ export default function AboutSection() {
             <div className="space-y-4">
               <p className="text-white leading-relaxed">
                 Greetings, I'm <span className="text-primary-accent font-semibold">Thompson N Daiminah Jr</span>, 
-                a skilled web & mobile app developer and residential electrician hailing from Liberia. Throughout my career, I've been 
+                a skilled Frontend web developer and mobile app developer, as well as a residential electrician hailing from Liberia. Throughout my career, I've been 
                 instrumental in assisting numerous clients with powerful digital solutions and professional electrical services.
               </p>
               <p className="text-white leading-relaxed">
@@ -30,7 +30,7 @@ export default function AboutSection() {
           <div className="flex justify-center">
             <div className="relative w-full max-w-md h-64 md:h-80 rounded-lg overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop"
+                src="/WhatsApp Image 2026-04-09 at 7.10.57 PM.jpeg"
                 alt="Web development workspace"
                 fill
                 className="object-cover"

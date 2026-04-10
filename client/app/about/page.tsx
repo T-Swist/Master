@@ -3,6 +3,7 @@
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function AboutPage() {
@@ -26,21 +27,39 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-bold text-primary-accent">
                   Thompson N Daiminah Jr
                 </h2>
-                <p className="text-white leading-relaxed">
-                  {t('about.description')}
+                <p className="text-primary-accent text-lg font-semibold">
+                  A Residential Electrician & Frontend Developer
                 </p>
                 <p className="text-white leading-relaxed">
-                  I'm a passionate web & mobile app developer and residential electrician from Liberia. I build powerful digital solutions and provide professional electrical services to help businesses and individuals succeed.
+                  I'm a passionate Frontend Developer and Residential Electrician from Monrovia, Liberia. 
+                  Currently working at Zongea Institute of Technology, I specialize in building responsive user 
+                  interfaces using React.js, Next.js, and TypeScript.
                 </p>
                 <p className="text-white leading-relaxed">
-                  My expertise spans modern web technologies, mobile app development, and residential electrical installations. I combine technical proficiency with practical problem-solving to deliver exceptional results.
+                  With 2.5 years of dedicated study and hands-on experience in modern web technologies, I focus on 
+                  translating UI designs into clean, reusable components with attention to layout and user experience. 
+                  I have a basic understanding of backend concepts (APIs, databases) and am actively learning full-stack development.
                 </p>
+                <p className="text-white leading-relaxed">
+                  My expertise spans React.js, TypeScript, JavaScript, and modern web tools. I combine technical 
+                  proficiency with practical problem-solving to deliver exceptional results in both digital solutions 
+                  and electrical services.
+                </p>
+                <div className="mt-6">
+                  <h3 className="text-xl font-bold text-primary-accent mb-3">Top Skills</h3>
+                  <div className="flex flex-wrap gap-3">
+                    <span className="bg-primary-accent text-background px-4 py-2 rounded-full text-sm font-semibold">React.js</span>
+                    <span className="bg-primary-accent text-background px-4 py-2 rounded-full text-sm font-semibold">TypeScript</span>
+                    <span className="bg-primary-accent text-background px-4 py-2 rounded-full text-sm font-semibold">JavaScript</span>
+                    <span className="bg-primary-accent text-background px-4 py-2 rounded-full text-sm font-semibold">Next.js</span>
+                  </div>
+                </div>
               </div>
 
               <div className="grid grid-cols-2 gap-6">
                 <div className="relative h-64 rounded-lg overflow-hidden shadow-2xl">
                   <Image
-                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop"
+                    src="/about1.jpeg"
                     alt="Web development workspace"
                     fill
                     className="object-cover"
@@ -48,7 +67,7 @@ export default function AboutPage() {
                 </div>
                 <div className="relative h-64 rounded-lg overflow-hidden shadow-2xl">
                   <Image
-                    src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop"
+                    src="/about2.jpeg"
                     alt="Mobile app development"
                     fill
                     className="object-cover"
@@ -56,7 +75,7 @@ export default function AboutPage() {
                 </div>
                 <div className="relative h-64 rounded-lg overflow-hidden shadow-2xl col-span-2">
                   <Image
-                    src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&h=400&fit=crop"
+                    src="/about03.jpeg"
                     alt="Electrical work"
                     fill
                     className="object-cover"
@@ -78,10 +97,52 @@ export default function AboutPage() {
                 partnerships with my clients.
               </p>
             </div>
+
+            <div className="bg-background-card rounded-3xl p-8 md:p-12 mt-2">
+              <h3 className="text-2xl font-bold text-primary-accent mb-6">Personal Data</h3>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Name : <span className="text-white font-normal">Thompson N. Daiminah Jr</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> DOB : <span className="text-white font-normal">January 8, 2003</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> POB : <span className="text-white font-normal">Bong County, Gbarnga</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Father's Name : <span className="text-white font-normal">Thompson C. Daiminah Sr</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Mother's Name : <span className="text-white font-normal">Salome T Gebeor</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Nationality : <span className="text-white font-normal">Liberian</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Religion : <span className="text-white font-normal">Christianity</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Sex : <span className="text-white font-normal">Male</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Addressed : <span className="text-white font-normal">Rehab, Copper's Farm Comm..</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> #s of Children : <span className="text-white font-normal">None</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Martial status : <span className="text-white font-normal">Single</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Complexion : <span className="text-white font-normal">Dark Brown</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Spouse's Name : <span className="text-white font-normal">--</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Height : <span className="text-white font-normal">5ft 3in</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> County of Origin : <span className="text-white font-normal">Bong County</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Contact : <span className="text-white font-normal">+231 775536673/ +231 881617698</span></p>
+              <p className="text-primary-accent leading-relaxed font-semibold"> Email addressed : <span className="text-white font-normal">daiminahthompson@gmail.com</span></p>
+            </div>
+
+            <div className="bg-background-card rounded-3xl p-8 md:p-12 mt-2">
+              <h3 className="text-2xl font-bold text-primary-accent mb-6">Professional Summary</h3>
+              <p className="text-white leading-relaxed mb-4">
+                With a unique combination of technical skills in frontend development and hands-on experience in 
+                residential electrical work, I bring a diverse skill set to every project. My journey from carpentry 
+                apprentice to solar installer, and now to frontend developer, has equipped me with problem-solving 
+                abilities and attention to detail that set me apart.
+              </p>
+              <p className="text-white leading-relaxed mb-4">
+                Currently working at Zongea Institute of Technology, I focus on building responsive, user-friendly 
+                web applications using modern technologies like React.js, Next.js, and TypeScript. I'm passionate 
+                about continuous learning and staying updated with the latest web development trends.
+              </p>
+              <p className="text-white leading-relaxed">
+                For detailed information about my work experience and educational background, please visit my{' '}
+                <Link href="/resume" className="text-primary-accent hover:underline font-semibold">
+                  Resume page
+                </Link>.
+              </p>
+            </div>
           </div>
         </div>
       </main>
       <Footer />
-    </>
+    </> 
   );
 }
