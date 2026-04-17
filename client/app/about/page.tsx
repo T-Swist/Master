@@ -32,7 +32,7 @@ export default function AboutPage() {
                 </p>
                 <p className="text-white leading-relaxed">
                   I'm a passionate Frontend Developer and Residential Electrician from Monrovia, Liberia. 
-                  Currently working at Zongea Institute of Technology, I specialize in building responsive user 
+                  Currently volunteering at Zongea Institute of Technology, I specialize in building responsive user 
                   interfaces using React.js, Next.js, and TypeScript.
                 </p>
                 <p className="text-white leading-relaxed">
@@ -48,6 +48,9 @@ export default function AboutPage() {
                 <div className="mt-6">
                   <h3 className="text-xl font-bold text-primary-accent mb-3">Top Skills</h3>
                   <div className="flex flex-wrap gap-3">
+                    <span className="bg-primary-accent text-background px-4 py-2 rounded-full text-sm font-semibold">HTML5</span>
+                    <span className="bg-primary-accent text-background px-4 py-2 rounded-full text-sm font-semibold">CSS3</span>
+                    <span className="bg-primary-accent text-background px-4 py-2 rounded-full text-sm font-semibold">Tailwind CSS</span>
                     <span className="bg-primary-accent text-background px-4 py-2 rounded-full text-sm font-semibold">React.js</span>
                     <span className="bg-primary-accent text-background px-4 py-2 rounded-full text-sm font-semibold">TypeScript</span>
                     <span className="bg-primary-accent text-background px-4 py-2 rounded-full text-sm font-semibold">JavaScript</span>
@@ -63,6 +66,7 @@ export default function AboutPage() {
                     alt="Web development workspace"
                     fill
                     className="object-cover"
+                    style={{ objectPosition: 'center 40%' }}
                   />
                 </div>
                 <div className="relative h-64 rounded-lg overflow-hidden shadow-2xl">
@@ -71,14 +75,16 @@ export default function AboutPage() {
                     alt="Mobile app development"
                     fill
                     className="object-cover"
+                    style={{ objectPosition: 'center 30%' }}
                   />
                 </div>
                 <div className="relative h-64 rounded-lg overflow-hidden shadow-2xl col-span-2">
                   <Image
-                    src="/about03.jpeg"
+                    src="/about3.jpeg"
                     alt="Electrical work"
                     fill
                     className="object-cover"
+                    style={{ objectPosition: 'center 12%' }}
                   />
                 </div>
               </div>

@@ -15,6 +15,7 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isPagesDropdownOpen, setIsPagesDropdownOpen] = useState(false);
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +23,27 @@ export default function Header() {
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    // Check theme on mount and when it changes
+    const checkTheme = () => {
+      const savedTheme = (localStorage.getItem('theme') as 'light' | 'dark') || 'dark';
+      setTheme(savedTheme);
+    };
+    
+    checkTheme();
+    
+    // Listen for theme changes
+    window.addEventListener('storage', checkTheme);
+    
+    // Also check periodically in case theme changes in same tab
+    const interval = setInterval(checkTheme, 500);
+    
+    return () => {
+      window.removeEventListener('storage', checkTheme);
+      clearInterval(interval);
+    };
   }, []);
 
   const navLinks = [
@@ -43,7 +65,7 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-background/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
+        isScrolled ? 'bg-background/5 backdrop-blur-md shadow-lg' : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -51,11 +73,12 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             <div className="relative w-24 h-12">
               <Image
-                src="/logo02.png"
+                src={theme === 'light' ? '/logo01.png' : '/logo02.png'}
                 alt="Thompson's Portfolio Logo"
                 fill
                 className="object-contain"
                 priority
+                key={theme}
               />
             </div>
           </Link>
@@ -84,11 +107,9 @@ export default function Header() {
               })}
               
               {/* Pages Dropdown */}
-              <li className="relative"
-                onMouseEnter={() => setIsPagesDropdownOpen(true)}
-                onMouseLeave={() => setIsPagesDropdownOpen(false)}
-              >
+              <li className="relative group">
                 <button
+                  onClick={() => setIsPagesDropdownOpen(!isPagesDropdownOpen)}
                   className={`font-medium transition-colors relative flex items-center gap-1 ${
                     isPagesActive 
                       ? 'text-primary-accent' 
@@ -105,14 +126,18 @@ export default function Header() {
                 </button>
                 
                 {isPagesDropdownOpen && (
-                  <div className="absolute top-full left-0 mt-2 w-40 bg-background-card border-2 border-primary-accent rounded-lg shadow-xl overflow-hidden">
+                  <div 
+                    className="absolute top-full left-0 mt-1 w-48 bg-background-card border-2 border-primary-accent rounded-lg shadow-xl overflow-hidden z-50"
+                    onMouseLeave={() => setIsPagesDropdownOpen(false)}
+                  >
                     {pagesDropdown.map((page) => {
                       const isActive = pathname === page.href;
                       return (
                         <Link
                           key={page.href}
                           href={page.href}
-                          className={`block px-4 py-3 transition-colors ${
+                          onClick={() => setIsPagesDropdownOpen(false)}
+                          className={`block px-5 py-3 transition-colors ${
                             isActive
                               ? 'bg-primary-accent text-background font-semibold'
                               : 'text-white hover:bg-primary-accent hover:text-background'

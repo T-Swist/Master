@@ -8,12 +8,12 @@ import { useLanguage } from '@/contexts/LanguageContext';
 export default function PortfolioSection() {
   const { t } = useLanguage();
   const projects = [
-    { id: '1', title: 'Jett Electric', image: '/project-1.png' },
-    { id: '2', title: 'T-Swist Fingers', image: '/project-2.png' },
-    { id: '3', title: 'T-Swist Menu', image: '/Project04.jpg' },
-    { id: '4', title: 'Whip In Time', image: '/Screenshot (11).png' },
-    { id: '5', title: 'Dream To Live', image: '/p.png' },
-    { id: '6', title: "Comfort's Menu", image: '/Screenshot (26).png' },
+    { id: '1', title: 'Jett Electric', image: '/business01.jpg', link: 'https://jettelectric.com' },
+    { id: '2', title: 'T-Swist Fingers', image: '/project-2.png', link: 'https://tswistfingers.com' },
+    { id: '3', title: 'T-Swist Menu', image: '/Project04.jpg', link: 'https://tswistmenu.com' },
+    { id: '4', title: 'Whip In Time', image: '/projects/projectwit.png', link: 'https://whipintime.onrender.com/' },
+    { id: '5', title: 'Dream To Live', image: '/project-1.png', link: 'https://dreamtolive.com' },
+    { id: '6', title: "Comfort's Menu", image: '/Screenshot (26).png', link: 'https://comfortsmenu.com' },
   ];
 
   return (
@@ -35,9 +35,9 @@ export default function PortfolioSection() {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-background-card rounded-3xl p-4 border border-background shadow-lg hover:shadow-2xl hover:shadow-background transition-all duration-300"
+              className="rounded-3xl p-4 border border-background shadow-lg hover:shadow-2xl hover:shadow-background transition-all duration-300"
             >
-              <div className="relative w-full h-40 rounded-lg overflow-hidden mb-3">
+              <div className="relative w-full h-40 rounded-md overflow-hidden mb-3">
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -48,6 +48,14 @@ export default function PortfolioSection() {
               <h2 className="text-white text-center uppercase text-sm font-semibold">
                 {project.title}
               </h2>
+              <Link
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-primary-accent text-background px-2 py-1 rounded-full text-sm font-semibold hover:bg-background hover:text-primary-accent border-2 border-primary-accent transition-all duration-300 mt-4"
+              >
+                View Project
+              </Link>
             </div>
           ))}
         </div>
@@ -55,7 +63,7 @@ export default function PortfolioSection() {
         <div className="text-center mt-12">
           <Link
             href="/portfolio"
-            className="inline-block bg-primary-accent text-background px-8 py-3 rounded-full text-lg font-semibold hover:bg-background hover:text-primary-accent border-2 border-primary-accent transition-all duration-300"
+            className="inline-block bg-primary-accent text-background px-6 py-2 rounded-full text-lg font-semibold hover:bg-background hover:text-primary-accent border-2 border-primary-accent transition-all duration-300"
           >
             View All Projects
           </Link>

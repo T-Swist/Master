@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -37,15 +38,25 @@ export default function CaseStudiesPage() {
                   variants={fadeIn('up', index * 0.2)}
                   className="bg-background-card rounded-3xl overflow-hidden border border-background-secondary"
                 >
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    <div className="relative h-64 lg:h-full">
-                      <CloudinaryImage
-                        src={study.image}
-                        alt={study.title}
-                        width={600}
-                        height={400}
-                        className="object-cover w-full h-full"
-                      />
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+                    <div className="relative h-60 lg:h-full min-h-[400px]">
+                      {study.image.startsWith('/') || study.image.startsWith('../') ? (
+                        <Image
+                          src={study.image.replace('../', '/')}
+                          alt={study.title}
+                          fill
+                          className="object-cover"
+                          unoptimized
+                        />
+                      ) : (
+                        <CloudinaryImage
+                          src={study.image}
+                          alt={study.title}
+                          width={600}
+                          height={400}
+                          className="object-cover w-full h-full"
+                        />
+                      )}
                     </div>
 
                     <div className="p-8 lg:p-12 space-y-6">
@@ -80,7 +91,9 @@ export default function CaseStudiesPage() {
                       </div>
 
                       <Link
-                        href={`/case-studies/${study.slug}`}
+                        href={(study as any).liveLink || `/case-studies/${study.slug}`}
+                        target={(study as any).liveLink ? '_blank' : undefined}
+                        rel={(study as any).liveLink ? 'noopener noreferrer' : undefined}
                         className="inline-flex items-center gap-2 bg-primary-accent text-background px-6 py-3 rounded-full font-semibold hover:bg-background hover:text-primary-accent border-2 border-primary-accent transition-all duration-300"
                       >
                         {t('caseStudies.viewLive')}

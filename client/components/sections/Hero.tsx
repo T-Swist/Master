@@ -73,10 +73,10 @@ export default function Hero() {
           </div>
 
           <div className="flex justify-center items-center">
-            <div className="relative w-60 h-60 md:w-72 md:h-72 rounded-full bg-primary-accent p-1">
+            <div className="relative w-60 h-60 md:w-96 md:h-96 rounded-full bg-primary-accent p-1">
               <div className="relative w-full h-full rounded-full overflow-hidden">
                 <Image
-                  src="/passphoto.jpeg"
+                  src="/heroimg.jpeg"
                   alt="Thompson N Daiminah Jr"
                   fill
                   className="object-cover"

@@ -6,8 +6,23 @@ import { useLanguage } from '@/contexts/LanguageContext';
 export default function AboutSection() {
   const { t } = useLanguage();
   return (
-    <section className="bg-background-secondary py-20">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative py-24 overflow-hidden">
+      {/* Sticky Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/aboutsbg.jpeg"
+          alt="About background"
+          fill
+          className="object-cover object-center"
+          style={{ objectPosition: 'center 16%' }}
+          unoptimized
+          priority
+        />
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-background/80"></div>
+      </div>
+
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-white text-sm uppercase tracking-wide">{t('about.subtitle')}</p>
@@ -30,10 +45,12 @@ export default function AboutSection() {
           <div className="flex justify-center">
             <div className="relative w-full max-w-md h-64 md:h-80 rounded-lg overflow-hidden shadow-2xl">
               <Image
-                src="/WhatsApp Image 2026-04-09 at 7.10.57 PM.jpeg"
-                alt="Web development workspace"
+                src="/abouth1.jpeg"
+                alt="Thompson N Daiminah Jr"
                 fill
                 className="object-cover"
+                style={{ objectPosition: 'center 14%' }}
+                unoptimized
               />
             </div>
           </div>
