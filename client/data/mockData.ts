@@ -148,16 +148,16 @@ export const resumeData = {
   experience: [
     {
       id: '1',
-      title: 'Frontend Developer',
+      title: 'Frontend Developer (Volunteer)',
       company: 'Zongea Institute of Technology',
       location: 'Monrovia, Liberia',
-      period: 'August 2024 - Present (1 year 9 months)',
-      description: 'Frontend Developer focused on building responsive user interfaces using React and Next.js.',
+      period: 'August 2024 - Present',
+      description: 'Volunteer Frontend Developer contributing to web development projects while building responsive user interfaces using React and Next.js.',
       achievements: [
-        'Translate UI designs into clean, reusable components with attention to layout and user experience',
-        'Basic understanding of backend concepts (APIs, databases) and actively learning full-stack development',
+        'Volunteer work translating UI designs into clean, reusable components with attention to layout and user experience',
+        'Gaining practical experience with backend concepts (APIs, databases) while actively learning full-stack development',
         'Collaborate with GitHub repositories, following project structures and version control best practices',
-        'Continuously learning modern web tools, performance optimization, and real-world application workflows',
+        'Continuously learning modern web tools, performance optimization, and real-world application workflows through hands-on volunteer projects',
       ],
     },
     {

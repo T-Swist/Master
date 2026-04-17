@@ -128,9 +128,10 @@ export default function AboutPage() {
                 abilities and attention to detail that set me apart.
               </p>
               <p className="text-white leading-relaxed mb-4">
-                Currently working at Zongea Institute of Technology, I focus on building responsive, user-friendly 
-                web applications using modern technologies like React.js, Next.js, and TypeScript. I'm passionate 
-                about continuous learning and staying updated with the latest web development trends.
+                Currently volunteering at Zongea Institute of Technology, I contribute to web development projects 
+                while building responsive, user-friendly applications using modern technologies like React.js, Next.js, 
+                and TypeScript. I'm passionate about continuous learning and staying updated with the latest web 
+                development trends.
               </p>
               <p className="text-white leading-relaxed">
                 For detailed information about my work experience and educational background, please visit my{' '}
