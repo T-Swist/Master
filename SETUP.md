@@ -81,7 +81,6 @@ Copy all images from the original Master folder to `client/public/images/`:
 - Screenshot (26).png
 - p.png
 - business01.jpg
-- business02.jpg
 - business03.jpg
 - logo02.png
 
