@@ -9,11 +9,11 @@ export default function PortfolioSection() {
   const { t } = useLanguage();
   const projects = [
     { id: '1', title: 'BJA Record Label', image: '/projects/bjarecord.png', link: 'https://bja-record.onrender.com/' },
-    { id: '2', title: 'T-Swist Fingers', image: '/project-2.png', link: 'https://tswistfingers.com' },
-    { id: '3', title: 'T-Swist Menu', image: '/Project04.jpg', link: 'https://tswistmenu.com' },
+    { id: '2', title: 'T-Swist Fingers', image: '/project-2.png', link: 'https://thompsondaiminah.vercel.app/' },
+    { id: '3', title: 'T-Swist Menu', image: '/Project04.jpg', link: 'https://thompsondaiminah.vercel.app/' },
     { id: '4', title: 'Whip In Time', image: '/projects/projectwit.png', link: 'https://whipintime.onrender.com/' },
-    { id: '5', title: 'Dream To Live', image: '/project-1.png', link: 'https://dreamtolive.com' },
-    { id: '6', title: "Comfort's Menu", image: '/Screenshot (26).png', link: 'https://comfortsmenu.com' },
+    { id: '5', title: 'Dream To Live', image: '/project-1.png', link: 'https://thompsondaiminah.vercel.app/' },
+    { id: '6', title: "Comfort's Menu", image: '/Screenshot (26).png', link: 'https://thompsondaiminah.vercel.app/' },
   ];
 
   return (
