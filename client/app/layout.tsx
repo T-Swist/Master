@@ -3,7 +3,6 @@ import { Poppins } from 'next/font/google';
 import './globals.css';
 import ScrollProgress from '@/components/ScrollProgress';
 import BackToTop from '@/components/BackToTop';
-import CookieConsent from '@/components/CookieConsent';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 
@@ -50,7 +49,6 @@ export default function RootLayout({
           <ScrollProgress />
           {children}
           <BackToTop />
-          <CookieConsent />
         </LanguageProvider>
       </body>
     </html>
