@@ -94,13 +94,14 @@ export default function AboutPage() {
               <h3 className="text-2xl font-bold text-primary-accent mb-6">My Mission</h3>
               <p className="text-white leading-relaxed mb-4">
                 My mission is to empower businesses and individuals by creating exceptional digital experiences 
-                that drive growth and engagement. I believe that every business deserves a professional online 
-                presence that reflects their unique value proposition.
+                that drive growth and engagement, while also providing reliable electrical services for homes. 
+                I believe that every business deserves a professional online presence that reflects their unique 
+                value proposition, and every home deserves safe and efficient electrical systems.
               </p>
               <p className="text-white leading-relaxed">
-                I'm dedicated to staying current with industry trends and continuously improving my skills to 
-                provide cutting-edge solutions. Available 24/7 for support, I'm committed to building long-term 
-                partnerships with my clients.
+                I'm dedicated to staying current with industry trends and continuously improving my skills in both 
+                web development and electrical work to provide cutting-edge solutions. Available 24/7 for support, 
+                I'm committed to building long-term partnerships with my clients through quality digital and electrical services.
               </p>
             </div>
 
