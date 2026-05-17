@@ -26,6 +26,15 @@ export const testimonials = [
     rating: 5,
     text: 'Professional, responsive, and incredibly talented. Thompson brought our brand to life with a beautiful website that perfectly captures our essence.',
   },
+  {
+    id: '4',
+    name: 'Derrick N',
+    position: 'Civic Engineer',
+    company: 'Contractor & County Engineer for Nimba',
+    image: 'portfolio/testimonials/client-4',
+    rating: 5,
+    text: 'Thompson provided excellent electrical services for our county projects. His work on residential installations and maintenance was professional, reliable, and met all safety standards. Highly recommended for any electrical work.',
+  },
 ];
 
 export const skills = [
@@ -39,50 +48,16 @@ export const skills = [
   { name: 'Node.js', level: 60, category: 'backend' },
   { name: 'Express.js', level: 78, category: 'backend' },
   { name: 'PostgresDB', level: 50, category: 'backend' },
+  { name: 'MySQL', level: 30, category: 'backend' },
+  { name: 'SQLite3', level: 25, category: 'backend' },
   { name: 'Git/GitHub', level: 72, category: 'tools' },
   { name: 'Responsive Design', level: 90, category: 'tools' },
-];
-
-export const blogPosts = [
-  {
-    id: '1',
-    title: 'The Future of Web Development in 2026',
-    slug: 'future-of-web-development-2026',
-    excerpt: 'Exploring the latest trends and technologies shaping the future of web development, from AI integration to advanced frameworks.',
-    content: 'Full blog post content here...',
-    image: 'portfolio/blog/post-1',
-    author: 'Thompson N Daiminah Jr',
-    date: '2026-03-15',
-    readTime: '5 min read',
-    category: 'Web Development',
-    tags: ['Web Dev', 'Trends', 'Technology'],
-  },
-  {
-    id: '2',
-    title: 'Mastering UI/UX Design Principles',
-    slug: 'mastering-ui-ux-design-principles',
-    excerpt: 'A comprehensive guide to creating user-centered designs that engage and convert visitors into loyal customers.',
-    content: 'Full blog post content here...',
-    image: 'portfolio/blog/post-2',
-    author: 'Thompson N Daiminah Jr',
-    date: '2026-03-10',
-    readTime: '7 min read',
-    category: 'Design',
-    tags: ['UI/UX', 'Design', 'Best Practices'],
-  },
-  {
-    id: '3',
-    title: 'Building Responsive Websites with Tailwind CSS',
-    slug: 'building-responsive-websites-tailwind',
-    excerpt: 'Learn how to leverage Tailwind CSS to create beautiful, responsive websites faster and more efficiently.',
-    content: 'Full blog post content here...',
-    image: 'portfolio/blog/post-3',
-    author: 'Thompson N Daiminah Jr',
-    date: '2026-03-05',
-    readTime: '6 min read',
-    category: 'CSS',
-    tags: ['Tailwind', 'CSS', 'Responsive'],
-  },
+  { name: 'Troubleshooting', level: 90, category: 'electrical' },
+  { name: 'Wiring', level: 85, category: 'electrical' },
+  { name: 'Repairing', level: 88, category: 'electrical' },
+  { name: 'Maintenance', level: 92, category: 'electrical' },
+  { name: 'Installation', level: 87, category: 'electrical' },
+  { name: 'Circuit Analysis', level: 80, category: 'electrical' },
 ];
 
 export const caseStudies = [
@@ -173,7 +148,7 @@ export const resumeData = {
     },
     {
       id: '2',
-      title: 'Solar Installer',
+      title: 'Solar Installer Apprentice',
       company: 'Solar Kponal A+',
       location: 'Montserrado County, Liberia',
       period: 'January 2022 - April 2023 (1 year 4 months)',
@@ -189,7 +164,7 @@ export const resumeData = {
       title: 'Residential Electrician',
       company: 'Field Work',
       location: 'Liberia',
-      period: '2020 - 2024',
+      period: '2020 - Present',
       description: 'Provided comprehensive residential electrical services including installations, maintenance, and troubleshooting for homes and small businesses.',
       achievements: [
         'Performed electrical installations and repairs',
@@ -214,20 +189,53 @@ export const resumeData = {
   education: [
     {
       id: '1',
-      degree: 'Certificate in Frontend Development, Computer Science',
-      institution: 'Zongea Institute of Technology',
+      degree: 'Diploma, High School',
+      institution: 'J. Chanuncey Goodridge Jr Memorial Foundation',
       location: 'Liberia',
-      period: 'June 2023 - February 2025',
-      description: 'Comprehensive training in modern web development technologies including React.js, Next.js, TypeScript, and JavaScript. Gained hands-on experience in building responsive user interfaces, working with GitHub repositories, and following industry best practices for version control and project structure.',
+      period: '2018 - 2021',
+      description: 'Completed high school education with focus on general studies and preparation for technical training.'
     },
     {
       id: '2',
       degree: 'Certificate in General Electricity',
       institution: 'Kollah Foundation Technical School',
       location: 'Liberia',
-      period: 'Completed',
-      description: 'Comprehensive electrical training covering residential electrical installations, maintenance, troubleshooting, and safety protocols. Developed practical skills in electrical systems design and implementation.',
+      period: 'July 2022 - December 2022',
+      description: 'Comprehensive training in electrical systems, circuit analysis, safety protocols, and practical electrical installations for residential applications.'
     },
+    {
+      id: '3',
+      degree: 'Certificate in Intro to Technology, Intro to Computer, Intro to Windows, Microsoft Office',
+      institution: 'Zongea Institute of Technology',
+      location: 'Liberia',
+      period: 'January 2023 - July 2023',
+      description: 'Foundation training in computer literacy, Windows operating system, and Microsoft Office applications including Word, Excel, and PowerPoint.'
+    },
+    {
+      id: '4',
+      degree: 'Certificate in Frontend Development, Computer Science',
+      institution: 'Zongea Institute of Technology',
+      location: 'Liberia',
+      period: 'July 2023 - December 2024',
+      description: 'Comprehensive training in modern web development technologies including React.js, Next.js, TypeScript, and JavaScript. Gained hands-on experience in building responsive user interfaces, working with GitHub repositories, and following industry best practices for version control and project structure.',
+    },
+    {
+      id: '5',
+      degree: 'Certificate in The Complete 2024 Web Development Bootcamp',
+      institution: 'Udemy',
+      location: 'Online',
+      period: 'June 2024 - January 2025',
+      description: 'Comprehensive training in modern web development technologies including React.js, Next.js, TypeScript, and JavaScript. Gained hands-on experience in building responsive user interfaces, working with GitHub repositories, and following industry best practices for version control and project structure.',
+    },
+    {
+      id: '6',
+      degree: 'Certificate in Driving Light Duty, Standard Gear',
+      institution: 'Cestos View Professional Institute',
+      location: 'Liberia',
+      period: 'January 2026 - May 2026',
+      description: 'Professional driving certification covering light duty vehicles, standard transmission operation, traffic laws, and defensive driving techniques.'
+    },
+   
   ],
 };
 
@@ -239,8 +247,8 @@ export const socialProof = {
     contributions: 342,
   },
   achievements: [
-    { label: 'Projects Completed', value: '10+' },
-    { label: 'Happy Clients', value: '8' },
+    { label: 'Projects Completed', value: '8+' },
+    { label: 'Happy Clients', value: '6' },
     { label: 'Code Commits', value: '500+' },
     { label: 'Coffee Consumed', value: '∞' },
   ],

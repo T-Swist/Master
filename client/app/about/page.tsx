@@ -105,32 +105,11 @@ export default function AboutPage() {
             </div>
 
             <div className="bg-background-card rounded-3xl p-8 md:p-12 mt-2">
-              <h3 className="text-2xl font-bold text-primary-accent mb-6">Personal Data</h3>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Name : <span className="text-white font-normal">Thompson N. Daiminah Jr</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> DOB : <span className="text-white font-normal">January 8, 2003</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> POB : <span className="text-white font-normal">Bong County, Gbarnga</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Father's Name : <span className="text-white font-normal">Thompson C. Daiminah Sr</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Mother's Name : <span className="text-white font-normal">Salome T Gebeor</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Nationality : <span className="text-white font-normal">Liberian</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Religion : <span className="text-white font-normal">Christianity</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Sex : <span className="text-white font-normal">Male</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Addressed : <span className="text-white font-normal">Rehab, Copper's Farm Comm..</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> #s of Children : <span className="text-white font-normal">None</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Martial status : <span className="text-white font-normal">Single</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Complexion : <span className="text-white font-normal">Dark Brown</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Spouse's Name : <span className="text-white font-normal">--</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Height : <span className="text-white font-normal">5ft 3in</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> County of Origin : <span className="text-white font-normal">Bong County</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Contact : <span className="text-white font-normal">+231 775536673/ +231 881617698</span></p>
-              <p className="text-primary-accent leading-relaxed font-semibold"> Email addressed : <span className="text-white font-normal">daiminahthompson@gmail.com</span></p>
-            </div>
-
-            <div className="bg-background-card rounded-3xl p-8 md:p-12 mt-2">
               <h3 className="text-2xl font-bold text-primary-accent mb-6">Professional Summary</h3>
               <p className="text-white leading-relaxed mb-4">
                 With a unique combination of technical skills in frontend development and hands-on experience in 
                 residential electrical work, I bring a diverse skill set to every project. My journey from carpentry 
-                apprentice to solar installer, and now to frontend developer, has equipped me with problem-solving 
+                apprentice, residential electrician to solar installer apprentice, and now to frontend developer, has equipped me with problem-solving 
                 abilities and attention to detail that set me apart.
               </p>
               <p className="text-white leading-relaxed mb-4">

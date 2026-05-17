@@ -69,7 +69,7 @@ export default function TestimonialsSection() {
                 <div className="flex flex-col items-center text-center mb-6">
                   <div className="relative w-20 h-20 rounded-full overflow-hidden mb-3 border-4 border-primary-accent">
                     <Image
-                      src={`/business0${(currentIndex % 3) + 1}.jpg`}
+                      src={`/business0${(currentIndex % 4) + 1}.jpg`}
                       alt={currentTestimonial.name}
                       fill
                       className="object-cover"

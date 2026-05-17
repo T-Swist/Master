@@ -14,6 +14,7 @@ export default function SkillsSection() {
     frontend: skills.filter(s => s.category === 'frontend'),
     backend: skills.filter(s => s.category === 'backend'),
     tools: skills.filter(s => s.category === 'tools'),
+    electrical: skills.filter(s => s.category === 'electrical'),
   };
 
   return (
@@ -33,7 +34,7 @@ export default function SkillsSection() {
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {Object.entries(categories).map(([category, categorySkills], catIndex) => (
               <motion.div
                 key={category}
@@ -42,7 +43,8 @@ export default function SkillsSection() {
               >
                 <h3 className="text-2xl font-bold text-primary-accent capitalize">
                   {category === 'frontend' ? 'Frontend' : 
-                   category === 'backend' ? 'Backend' : 'Tools'}
+                   category === 'backend' ? 'Backend' : 
+                   category === 'electrical' ? 'Electrical' : 'Tools'}
                 </h3>
                 
                 {categorySkills.map((skill, index) => (

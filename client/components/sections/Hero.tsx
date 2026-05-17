@@ -28,14 +28,6 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, [roles.length]);
 
-  const socialLinks = [
-    { href: 'https://web.facebook.com/tswist.daiminah', icon: Facebook, label: 'Facebook' },
-    { href: 'https://github.com/T-Swist', icon: Github, label: 'GitHub' },
-    { href: 'https://www.linkedin.com/in/thompson-n-daiminah-jr-ba614929a/', icon: Linkedin, label: 'LinkedIn' },
-    { href: 'https://wa.me/+231881617698', icon: MessageCircle, label: 'WhatsApp' },
-    { href: 'https://www.instagram.com/tswist_dai/', icon: Instagram, label: 'Instagram' },
-  ];
-
   return (
     <section className="min-h-screen bg-background pt-20 relative">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -85,23 +77,6 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="fixed right-0 top-1/2 -translate-y-1/2 bg-background-card border-2 border-background rounded-l-3xl p-4 space-y-4 hidden lg:block">
-          {socialLinks.map((social, index) => {
-            const Icon = social.icon;
-            return (
-              <a
-                key={index}
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block text-white hover:text-primary-accent transition-colors duration-300"
-              >
-                <Icon size={24} />
-              </a>
-            );
-          })}
         </div>
       </div>
     </section>

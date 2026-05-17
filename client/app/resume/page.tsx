@@ -47,6 +47,32 @@ export default function ResumePage() {
               </motion.button>
             </motion.div>
 
+            {/* Personal Data Section */}
+            <motion.div variants={fadeIn('up', 0.15)} className="mb-16">
+              <div className="bg-background-card rounded-3xl p-8 md:p-12 border border-background-secondary">
+                <h2 className="text-3xl font-bold text-primary-accent mb-6">Personal Data</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <p className="text-primary-accent leading-relaxed font-semibold">Name: <span className="text-white font-normal">Thompson N. Daiminah Jr</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">DOB: <span className="text-white font-normal">January 8, 2003</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">POB: <span className="text-white font-normal">Bong County, Gbarnga</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Father's Name: <span className="text-white font-normal">Thompson C. Daiminah Sr</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Mother's Name: <span className="text-white font-normal">Salome T Gebeor</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Nationality: <span className="text-white font-normal">Liberian</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Religion: <span className="text-white font-normal">Christianity</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Sex: <span className="text-white font-normal">Male</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Address: <span className="text-white font-normal">Rehab, Copper's Farm Comm..</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold"># of Children: <span className="text-white font-normal">None</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Marital Status: <span className="text-white font-normal">Single</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Complexion: <span className="text-white font-normal">Dark Brown</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Spouse's Name: <span className="text-white font-normal">--</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Height: <span className="text-white font-normal">5ft 3in</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">County of Origin: <span className="text-white font-normal">Bong County</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Contact: <span className="text-white font-normal">+231 775536673/ +231 881617698</span></p>
+                  <p className="text-primary-accent leading-relaxed font-semibold">Email: <span className="text-white font-normal">daiminahthompson@gmail.com</span></p>
+                </div>
+              </div>
+            </motion.div>
+
             {/* Experience Section */}
             <motion.div variants={fadeIn('up', 0.2)} className="mb-16">
               <div className="flex items-center gap-3 mb-8">

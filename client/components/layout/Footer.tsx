@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Facebook, Github, Linkedin, Instagram, Twitter } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Footer() {
@@ -14,7 +13,6 @@ export default function Footer() {
     { href: '/services', label: t('nav.services') },
     { href: '/portfolio', label: t('nav.portfolio') },
     { href: '/case-studies', label: t('nav.caseStudies') },
-    { href: '/blog', label: t('nav.blog') },
     { href: '/resume', label: t('nav.resume') },
     { href: '/contact', label: t('nav.contact') },
   ];

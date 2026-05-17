@@ -55,7 +55,6 @@ export default function Header() {
 
   const pagesDropdown = [
     { href: '/portfolio', label: t('nav.portfolio') },
-    { href: '/blog', label: t('nav.blog') },
     { href: '/case-studies', label: t('nav.caseStudies') },
     { href: '/resume', label: t('nav.resume') },
   ];
@@ -127,7 +126,7 @@ export default function Header() {
                 
                 {isPagesDropdownOpen && (
                   <div 
-                    className="absolute top-full left-0 mt-1 w-48 bg-background-card border-2 border-primary-accent rounded-lg shadow-xl overflow-hidden z-50"
+                    className="absolute top-full left-0 mt-1 w-40 bg-background-card border-2 border-primary-accent rounded-lg shadow-xl overflow-hidden z-50"
                     onMouseLeave={() => setIsPagesDropdownOpen(false)}
                   >
                     {pagesDropdown.map((page) => {
@@ -137,7 +136,7 @@ export default function Header() {
                           key={page.href}
                           href={page.href}
                           onClick={() => setIsPagesDropdownOpen(false)}
-                          className={`block px-5 py-3 transition-colors ${
+                          className={`block px-3 py-2 transition-colors ${
                             isActive
                               ? 'bg-primary-accent text-background font-semibold'
                               : 'text-white hover:bg-primary-accent hover:text-background'

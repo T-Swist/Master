@@ -3,6 +3,7 @@ import { Poppins } from 'next/font/google';
 import './globals.css';
 import ScrollProgress from '@/components/ScrollProgress';
 import BackToTop from '@/components/BackToTop';
+import FixedSocialLinks from '@/components/FixedSocialLinks';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 
@@ -47,6 +48,7 @@ export default function RootLayout({
         <LanguageProvider>
           <GoogleAnalytics />
           <ScrollProgress />
+          <FixedSocialLinks />
           {children}
           <BackToTop />
         </LanguageProvider>

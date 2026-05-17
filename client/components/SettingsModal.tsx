@@ -56,7 +56,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-md bg-background-card border-2 border-primary-accent rounded-3xl p-8 z-[101] shadow-2xl"
+            className="fixed top-1/1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-md bg-background-card border-2 border-primary-accent rounded-3xl p-4 z-[101] shadow-2xl"
           >
             {/* Close Button */}
             <button
@@ -68,13 +68,13 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
             </button>
 
             {/* Title */}
-            <h2 className="text-2xl font-bold text-primary-accent mb-6">Settings</h2>
+            <h2 className="text-xl font-bold text-primary-accent mb-6">Settings</h2>
 
             {/* Theme Section */}
             <div className="mb-8">
               <div className="flex items-center gap-2 mb-4">
                 {theme === 'dark' ? <Moon size={20} className="text-primary-accent" /> : <Sun size={20} className="text-primary-accent" />}
-                <h3 className="text-lg font-semibold text-white">Theme</h3>
+                <h3 className="text-md font-semibold text-white">Theme</h3>
               </div>
               <div className="flex gap-3">
                 <button
@@ -83,7 +83,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                     localStorage.setItem('theme', 'dark');
                     document.documentElement.classList.remove('light');
                   }}
-                  className={`flex-1 px-4 py-3 rounded-xl font-semibold transition-all duration-300 ${
+                  className={`flex-1 px-2 py-2 rounded-xl font-semibold transition-all duration-300 ${
                     theme === 'dark'
                       ? 'bg-primary-accent text-background'
                       : 'bg-background border-2 border-gray-700 text-white hover:border-primary-accent'
@@ -98,7 +98,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                     localStorage.setItem('theme', 'light');
                     document.documentElement.classList.add('light');
                   }}
-                  className={`flex-1 px-4 py-3 rounded-xl font-semibold transition-all duration-300 ${
+                  className={`flex-1 px-2 py-2 rounded-xl font-semibold transition-all duration-300 ${
                     theme === 'light'
                       ? 'bg-primary-accent text-background'
                       : 'bg-background border-2 border-gray-700 text-white hover:border-primary-accent'
@@ -114,12 +114,12 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Languages size={20} className="text-primary-accent" />
-                <h3 className="text-lg font-semibold text-white">Language</h3>
+                <h3 className="text-md font-semibold text-white">Language</h3>
               </div>
               <div className="flex gap-3">
                 <button
                   onClick={() => setLanguage('en')}
-                  className={`flex-1 px-4 py-3 rounded-xl font-semibold transition-all duration-300 ${
+                  className={`flex-1 px-2 py-2 rounded-xl font-semibold transition-all duration-300 ${
                     language === 'en'
                       ? 'bg-primary-accent text-background'
                       : 'bg-background border-2 border-gray-700 text-white hover:border-primary-accent'
@@ -129,7 +129,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                 </button>
                 <button
                   onClick={() => setLanguage('es')}
-                  className={`flex-1 px-4 py-3 rounded-xl font-semibold transition-all duration-300 ${
+                  className={`flex-1 px-2 py-2 rounded-xl font-semibold transition-all duration-300 ${
                     language === 'es'
                       ? 'bg-primary-accent text-background'
                       : 'bg-background border-2 border-gray-700 text-white hover:border-primary-accent'
