@@ -2,7 +2,7 @@
 
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import { Code, Smartphone, Zap, Layout } from 'lucide-react';
+import { Code, Layout, Zap } from 'lucide-react';
 import Link from 'next/link';
 import { useLanguage } from '@/contexts/LanguageContext';
 
@@ -23,15 +23,15 @@ export default function ServicesPage() {
       ],
     },
     {
-      icon: Smartphone,
+      icon: Layout,
       title: t('services.mobileDev.title'),
       description: t('services.mobileDev.description'),
       features: [
-        'iOS & Android Apps',
-        'Cross-platform Development',
-        'React Native',
-        'App Store Deployment',
-        'Mobile UI/UX',
+        'User Interface Design',
+        'User Experience Research',
+        'Wireframing & Prototyping',
+        'Responsive Layouts',
+        'Design Systems',
       ],
     },
     {

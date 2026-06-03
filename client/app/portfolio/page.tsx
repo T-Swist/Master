@@ -19,14 +19,6 @@ export default function PortfolioPage() {
     },
     {
       id: '2',
-      title: 'Mobile Banking App',
-      description: 'Secure mobile banking application with real-time transactions and biometric authentication.',
-      image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop',
-      technologies: ['React Native', 'Node.js', 'MongoDB'],
-      category: 'Mobile App',
-    },
-    {
-      id: '3',
       title: 'Restaurant Website',
       description: 'Beautiful restaurant website with online ordering and reservation system.',
       image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop',
@@ -34,15 +26,7 @@ export default function PortfolioPage() {
       category: 'Web Development',
     },
     {
-      id: '4',
-      title: 'Fitness Tracking App',
-      description: 'Mobile app for tracking workouts, nutrition, and fitness goals with social features.',
-      image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop',
-      technologies: ['React Native', 'Firebase'],
-      category: 'Mobile App',
-    },
-    {
-      id: '5',
+      id: '3',
       title: 'Real Estate Platform',
       description: 'Property listing website with advanced search, virtual tours, and agent dashboard.',
       image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop',
@@ -50,12 +34,20 @@ export default function PortfolioPage() {
       category: 'Web Development',
     },
     {
-      id: '6',
-      title: 'Smart Home Control',
-      description: 'Mobile app for controlling smart home devices and electrical systems remotely.',
-      image: 'https://images.unsplash.com/photo-1558002038-1055907df827?w=800&h=600&fit=crop',
-      technologies: ['React Native', 'IoT', 'AWS'],
-      category: 'Mobile App',
+      id: '4',
+      title: 'Business Portfolio',
+      description: 'Professional portfolio and landing page with modern animations and responsive design.',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
+      technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
+      category: 'Web Development',
+    },
+    {
+      id: '5',
+      title: 'Residential Electrical Project',
+      description: 'Complete home wiring and electrical panel installation with safety compliance.',
+      image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=600&fit=crop',
+      technologies: ['Wiring', 'Panel Installation', 'Safety Codes'],
+      category: 'Electrical',
     },
   ];
 

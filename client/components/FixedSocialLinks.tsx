@@ -12,7 +12,7 @@ export default function FixedSocialLinks() {
   ];
 
   return (
-    <div className="fixed z-20 right-0 top-1/2 -translate-y-1/2 bg-background-card border-2 border-background rounded-l-3xl p-4 space-y-4 hidden lg:block">
+    <div className="fixed z-20 right-0 top-1/2 -translate-y-1/2 bg-background-card border-2 border-background rounded-l-3xl p-2 space-y-4 hidden lg:block">
       {socialLinks.map((social, index) => {
         const Icon = social.icon;
         return (

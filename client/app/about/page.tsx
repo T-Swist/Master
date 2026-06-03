@@ -72,7 +72,7 @@ export default function AboutPage() {
                 <div className="relative h-64 rounded-lg overflow-hidden shadow-2xl">
                   <Image
                     src="/about2.jpeg"
-                    alt="Mobile app development"
+                    alt="Web development"
                     fill
                     className="object-cover"
                     style={{ objectPosition: 'center 30%' }}

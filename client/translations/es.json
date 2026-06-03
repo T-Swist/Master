@@ -14,17 +14,15 @@
     "name": "Thompson N Daiminah Jr.",
     "title1": "Frontend",
     "title2": "Residencial",
-    "title3": "Móvil",
     "role1": "Desarrollador Web",
     "role2": "Electricista",
-    "role3": "Desarrollador de Apps",
-    "description": "Soy desarrollador Frontend, de aplicaciones móviles y electricista residencial de Liberia. Creo sitios web personalizados para ayudar a las empresas a establecer una sólida presencia en línea, y proporciono servicios eléctricos expertos para hogares.",
+    "description": "Soy desarrollador Frontend y electricista residencial de Liberia. Creo sitios web personalizados para ayudar a las empresas a establecer una sólida presencia en línea, y proporciono servicios eléctricos expertos para hogares.",
     "cta": "Contrátame"
   },
   "about": {
     "title": "Sobre Mí",
     "subtitle": "Conóceme mejor",
-    "description": "Soy un apasionado desarrollador de aplicaciones web y móviles y electricista residencial certificado con sede en Liberia. Con experiencia tanto en soluciones digitales como en servicios eléctricos, aporto una perspectiva única a cada proyecto.",
+    "description": "Soy un apasionado desarrollador web y electricista residencial certificado con sede en Liberia. Con experiencia tanto en soluciones digitales como en servicios eléctricos, aporto una perspectiva única a cada proyecto.",
     "yearsExperience": "Años de Experiencia",
     "projectsCompleted": "Proyectos Completados",
     "happyClients": "Clientes Satisfechos"
@@ -37,8 +35,8 @@
       "description": "Sitios web y aplicaciones web personalizadas construidas con tecnologías modernas"
     },
     "mobileDev": {
-      "title": "Desarrollo de Aplicaciones Móviles",
-      "description": "Aplicaciones móviles nativas y multiplataforma para iOS y Android"
+      "title": "Diseño UI/UX",
+      "description": "Creando interfaces intuitivas y fáciles de usar con principios de diseño modernos"
     },
     "electrical": {
       "title": "Servicios Eléctricos Residenciales",

@@ -32,7 +32,7 @@ export default function AboutSection() {
             <div className="space-y-4">
               <p className="text-white leading-relaxed">
                 Greetings, I'm <span className="text-primary-accent font-semibold">Thompson N Daiminah Jr</span>, 
-                a skilled Frontend web developer and mobile app developer, as well as a residential electrician hailing from Liberia. Throughout my career, I've been 
+                a skilled Frontend Web Developer and Residential Electrician hailing from Liberia. Throughout my career, I've been 
                 instrumental in assisting numerous clients with powerful digital solutions and professional electrical services.
               </p>
               <p className="text-white leading-relaxed">

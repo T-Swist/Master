@@ -118,7 +118,7 @@ export default function ContactForm() {
           >
             <option value="">Select a project type</option>
             <option value="Web Development">{t('services.webDev.title')}</option>
-            <option value="Mobile App Development">{t('services.mobileDev.title')}</option>
+            <option value="UI/UX Design">{t('services.mobileDev.title')}</option>
             <option value="Electrical Services">{t('services.electrical.title')}</option>
             <option value="Other">Other</option>
           </select>

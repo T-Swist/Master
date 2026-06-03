@@ -14,9 +14,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Thompson N Daiminah Jr | Web & Mobile App Developer & Residential Electrician',
-  description: 'Professional web & mobile app developer and residential electrician from Liberia. Building powerful digital solutions and providing expert electrical services.',
-  keywords: ['web developer', 'mobile app developer', 'residential electrician', 'Liberia', 'Thompson Daiminah', 'electrical services'],
+  title: 'Thompson N Daiminah Jr | Frontend Web Developer & Residential Electrician',
+  description: 'Professional frontend web developer and residential electrician from Liberia. Building powerful digital solutions and providing expert electrical services.',
+  keywords: ['web developer', 'frontend developer', 'residential electrician', 'Liberia', 'Thompson Daiminah', 'electrical services'],
   authors: [{ name: 'Thompson N Daiminah Jr' }],
   icons: {
     icon: [
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: 'Thompson N Daiminah Jr | Web & Mobile App Developer & Residential Electrician',
-    description: 'Professional web & mobile app developer and residential electrician from Liberia',
+    title: 'Thompson N Daiminah Jr | Frontend Web Developer & Residential Electrician',
+    description: 'Professional frontend web developer and residential electrician from Liberia',
     type: 'website',
   },
 };

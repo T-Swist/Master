@@ -11,8 +11,8 @@ export default function Hero() {
   const { t } = useLanguage();
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   
-  const titles = [t('hero.title1'), t('hero.title2'), t('hero.title3')];
-  const roles = [t('hero.role1'), t('hero.role2'), t('hero.role3')];
+  const titles = [t('hero.title1'), t('hero.title2')];
+  const roles = [t('hero.role1'), t('hero.role2')];
 
   // Debug: Log the translation values
   useEffect(() => {
