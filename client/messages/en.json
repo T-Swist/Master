@@ -34,11 +34,7 @@
       "title": "Web Development",
       "description": "Building responsive, conversion-focused websites using modern technologies and best practices."
     },
-    "mobileDev": {
-      "title": "UI/UX Design",
-      "description": "Creating intuitive, user-friendly interfaces with modern design principles and best practices."
-    },
-    "uiux": {
+    "electrical": {
       "title": "Residential Electricity",
       "description": "Maintenance, installation, and troubleshooting of residential electrical systems with attention to detail."
     }

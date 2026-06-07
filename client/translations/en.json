@@ -34,17 +34,9 @@
       "title": "Web Development",
       "description": "Custom websites and web applications built with modern technologies"
     },
-    "mobileDev": {
-      "title": "UI/UX Design",
-      "description": "Creating intuitive, user-friendly interfaces with modern design principles"
-    },
     "electrical": {
       "title": "Residential Electrical Services",
       "description": "Professional electrical installations, repairs, and maintenance"
-    },
-    "uiux": {
-      "title": "UI/UX Design",
-      "description": "User-centered design solutions for digital products"
     }
   },
   "skills": {

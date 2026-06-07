@@ -128,6 +128,36 @@ export const caseStudies = [
       author: 'BJA Record Label Team',
     },
   },
+  {
+    id: '3',
+    title: 'ETW Care Services - Professional Care Platform',
+    slug: 'etw-care-services',
+    client: 'ETW Care Services',
+    year: '2026',
+    category: 'Business Website',
+    image: '/projects/etw-project.png',
+    liveLink: 'https://care-services-theta.vercel.app/',
+    challenge: 'Build a professional and trustworthy online presence for ETW Care Services to showcase their care offerings, attract new clients, and provide easy access to service information.',
+    solution: 'Developed a clean, modern business website using React and Vite with a focus on user-friendly navigation, clear service descriptions, and a professional design that builds trust with potential clients.',
+    results: [
+      'Professional online presence established',
+      'Clear and accessible service information for clients',
+      'Modern, responsive design across all devices',
+      'Fast loading performance with Vite build optimization',
+    ],
+    technologies: ['React', 'Vite', 'CSS', 'JavaScript', 'Vercel'],
+    features: [
+      'Professional landing page with service highlights',
+      'Detailed service descriptions and offerings',
+      'Contact information and inquiry options',
+      'Responsive design for all screen sizes',
+      'Fast performance with optimized build',
+    ],
+    testimonial: {
+      text: 'Thompson created a professional website that perfectly represents our care services. The design is clean and our clients find it easy to navigate.',
+      author: 'ETW Care Services Team',
+    },
+  },
 ];
 
 export const resumeData = {

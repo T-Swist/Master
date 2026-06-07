@@ -34,13 +34,9 @@
       "title": "Desarrollo Web",
       "description": "Construcción de sitios web responsivos y enfocados en conversión utilizando tecnologías modernas y mejores prácticas."
     },
-    "webDesign": {
-      "title": "Diseño Web",
-      "description": "Creación de diseños hermosos y fáciles de usar que dan vida a tus ideas."
-    },
-    "uiux": {
-      "title": "Diseño UI/UX",
-      "description": "Creación de experiencias de usuario únicas e intuitivas en Figma con atención al detalle."
+    "electrical": {
+      "title": "Electricidad Residencial",
+      "description": "Mantenimiento, instalación y solución de problemas de sistemas eléctricos residenciales con atención al detalle."
     }
   },
   "portfolio": {

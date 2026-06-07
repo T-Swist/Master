@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Code, Layout, Zap, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Code, Zap, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function ServicesSection() {
@@ -14,11 +14,6 @@ export default function ServicesSection() {
       icon: Code,
       title: t('services.webDev.title'),
       description: t('services.webDev.description'),
-    },
-    {
-      icon: Layout,
-      title: t('services.mobileDev.title'),
-      description: t('services.mobileDev.description'),
     },
     {
       icon: Zap,

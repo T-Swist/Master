@@ -2,7 +2,7 @@
 
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import { Code, Layout, Zap } from 'lucide-react';
+import { Code, Zap } from 'lucide-react';
 import Link from 'next/link';
 import { useLanguage } from '@/contexts/LanguageContext';
 
@@ -20,18 +20,6 @@ export default function ServicesPage() {
         'SEO Best Practices',
         'Cross-browser Compatibility',
         'Modern Frameworks (React, Next.js)',
-      ],
-    },
-    {
-      icon: Layout,
-      title: t('services.mobileDev.title'),
-      description: t('services.mobileDev.description'),
-      features: [
-        'User Interface Design',
-        'User Experience Research',
-        'Wireframing & Prototyping',
-        'Responsive Layouts',
-        'Design Systems',
       ],
     },
     {
