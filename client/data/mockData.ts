@@ -271,10 +271,10 @@ export const resumeData = {
 
 export const socialProof = {
   githubStats: {
-    repos: 15,
-    stars: 47,
-    followers: 23,
-    contributions: 342,
+    repos: 29,
+    stars: 0,
+    followers: 3,
+    contributions: 8,
   },
   achievements: [
     { label: 'Projects Completed', value: '8+' },
