@@ -130,13 +130,13 @@ export const caseStudies = [
   },
   {
     id: '3',
-    title: 'ETW Care Services - Professional Care Platform',
-    slug: 'etw-care-services',
-    client: 'ETW Care Services',
-    year: '2026',
+    title: 'AH-NUEN Class - Professional Mini Voting Platform',
+    slug: 'ah-nuenclass-services',
+    client: 'AH-NUEN Class',
+    year: '2025 - 2026',
     category: 'Business Website',
-    image: '/projects/etw-project.png',
-    liveLink: 'https://care-services-theta.vercel.app/',
+    image: '/projects/AH-NUEN.png',
+    liveLink: 'https://ahnuenclass.com/',
     challenge: 'Build a professional and trustworthy online presence for ETW Care Services to showcase their care offerings, attract new clients, and provide easy access to service information.',
     solution: 'Developed a clean, modern business website using React and Vite with a focus on user-friendly navigation, clear service descriptions, and a professional design that builds trust with potential clients.',
     results: [
@@ -145,7 +145,7 @@ export const caseStudies = [
       'Modern, responsive design across all devices',
       'Fast loading performance with Vite build optimization',
     ],
-    technologies: ['React', 'Vite', 'CSS', 'JavaScript', 'Vercel'],
+    technologies: ['React', 'Vite', 'TailwindSS', 'JavaScript', 'TypeScript', 'Express', 'Postgres', 'Vercel'],
     features: [
       'Professional landing page with service highlights',
       'Detailed service descriptions and offerings',

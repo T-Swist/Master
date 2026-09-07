@@ -58,7 +58,7 @@ export default function Hero() {
             </p>
             <Link
               href="/contact"
-              className="inline-block bg-primary-accent text-background px-6 py-2 rounded-full text-md font-semibold hover:bg-background hover:text-primary-accent border-2 border-primary-accent transition-all duration-300 shadow-lg hover:shadow-primary-accent/50"
+              className="inline-block bg-primary-accent text-background px-6 py-2 rounded-full text-md font-semibold hover:bg-background hover:text-primary-accent border-[0.1px] border-primary-accent transition-all duration-300 shadow-lg hover:shadow-primary-accent/50"
             >
               {t('hero.cta')}
             </Link>

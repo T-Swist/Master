@@ -8,12 +8,12 @@ import { useLanguage } from '@/contexts/LanguageContext';
 export default function PortfolioSection() {
   const { t } = useLanguage();
   const projects = [
-    { id: '1', title: 'BJA Record Label', image: '/projects/bjarecord.png', link: 'https://bja-record.onrender.com/' },
-    { id: '2', title: 'T-Swist Fingers', image: '/project-2.png', link: 'https://thompsondaiminah.vercel.app/' },
-    { id: '3', title: 'T-Swist Menu', image: '/Project04.jpg', link: 'https://thompsondaiminah.vercel.app/' },
-    { id: '4', title: 'Whip In Time', image: '/projects/projectwit.png', link: 'https://whipintime.onrender.com/' },
-    { id: '5', title: 'Dream To Live', image: '/project-1.png', link: 'https://thompsondaiminah.vercel.app/' },
-    { id: '6', title: "Comfort's Menu", image: '/Screenshot (26).png', link: 'https://thompsondaiminah.vercel.app/' },
+    { id: '1', title: 'BJA Record Label Platform', image: '/projects/bjarecord.png', link: 'https://bja-record.onrender.com/', description: 'Full-stack music platform with real-time updates', tech: ['React', 'Node.js', 'PostgreSQL'] },
+    { id: '2', title: 'Whip In Time', image: '/projects/projectwit.png', link: 'https://whipintime.onrender.com/', description: 'Car rental platform with payment integration', tech: ['React', 'Express', 'Stripe'] },
+    { id: '3', title: 'AH-NUEN Class', image: '/projects/AH-NUEN.png', link: 'https://ahnuenclass.com/', description: 'Professional business website', tech: ['React', 'Vite', 'Tailwind'] },
+    { id: '4', title: 'T-Swist Menu', image: '/Project04.jpg', link: 'https://thompsondaiminah.vercel.app/', description: 'Restaurant menu application', tech: ['Next.js', 'TypeScript'] },
+    { id: '5', title: 'DaiMass Solution', image: '/projects/DaiMass.png', link: 'https://dai-mass-solution.vercel.app/', description: 'Business services platform', tech: ['React', 'Node.js'] },
+    { id: '6', title: "Comfort's Menu", image: '/Screenshot (26).png', link: 'https://thompsondaiminah.vercel.app/', description: 'Food ordering system', tech: ['Next.js', 'MongoDB'] },
   ];
 
   return (
@@ -45,9 +45,22 @@ export default function PortfolioSection() {
                   className="object-cover"
                 />
               </div>
-              <h2 className="text-white text-center uppercase text-sm font-semibold">
+              <h2 className="text-white text-center uppercase text-sm font-semibold mb-2">
                 {project.title}
               </h2>
+              <p className="text-primary-accent text-xs text-center mb-3 leading-relaxed">
+                {project.description}
+              </p>
+              <div className="flex flex-wrap gap-2 justify-center mb-4">
+                {project.tech.map((technology) => (
+                  <span
+                    key={technology}
+                    className="text-xs bg-background-card text-primary-accent px-2 py-1 rounded-full"
+                  >
+                    {technology}
+                  </span>
+                ))}
+              </div>
               <Link
                 href={project.link}
                 target="_blank"
